@@ -41,11 +41,6 @@
       "name": "ic-testkit",
       "url": "https://github.com/dragginzgame/ic-testkit",
       "icon": "ic-testkit.svg"
-    },
-    {
-      "name": "ic-delegated-auth",
-      "url": "https://github.com/dragginzgame/ic-delegated-auth",
-      "icon": "ic-delegated-auth.svg"
     }
   ]
 }

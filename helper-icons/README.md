@@ -12,7 +12,6 @@ Expected filenames:
 - `ic-backup.svg`
 - `ic-blob-storage.svg`
 - `ic-testkit.svg`
-- `ic-delegated-auth.svg`
 
 Icons should:
 
