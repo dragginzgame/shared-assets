@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "asset_base_url": "https://raw.githubusercontent.com/dragginzgame/shared-assets/main/helper-icons",
+  "repositories": [
+    {
+      "name": "canic",
+      "url": "https://github.com/dragginzgame/canic",
+      "icon": "canic.svg"
+    },
+    {
+      "name": "icydb",
+      "url": "https://github.com/dragginzgame/icydb",
+      "icon": "icydb.svg"
+    },
+    {
+      "name": "ic-timers",
+      "url": "https://github.com/dragginzgame/ic-timers",
+      "icon": "ic-timers.svg"
+    },
+    {
+      "name": "ic-memory",
+      "url": "https://github.com/dragginzgame/ic-memory",
+      "icon": "ic-memory.svg"
+    },
+    {
+      "name": "ic-query",
+      "url": "https://github.com/dragginzgame/ic-query",
+      "icon": "ic-query.svg"
+    },
+    {
+      "name": "ic-backup",
+      "url": "https://github.com/dragginzgame/ic-backup",
+      "icon": "ic-backup.svg"
+    },
+    {
+      "name": "ic-blob-storage",
+      "url": "https://github.com/dragginzgame/ic-blob-storage",
+      "icon": "ic-blob-storage.svg"
+    },
+    {
+      "name": "ic-testkit",
+      "url": "https://github.com/dragginzgame/ic-testkit",
+      "icon": "ic-testkit.svg"
+    },
+    {
+      "name": "ic-delegated-auth",
+      "url": "https://github.com/dragginzgame/ic-delegated-auth",
+      "icon": "ic-delegated-auth.svg"
+    }
+  ]
+}
