@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">IcyDB</title>
+  <g transform="translate(16 11) scale(.23)">
+    <g fill="#5CD7EA">
+      <path d="M5 94C35 135 245 135 275 94V146C275 198 5 198 5 146Z"/>
+      <path d="M5 170C35 211 245 211 275 170V222C275 274 5 274 5 222Z"/>
+      <path d="M5 246C35 287 245 287 275 246V278C275 330 5 330 5 278Z"/>
+      <path d="M98 92C46 87 5 71 5 49C5 15 103 0 190 11Z"/>
+    </g>
+    <path fill="#FFFFFF" d="M123 95L212 16C251 24 275 36 275 49C275 78 193 96 123 95Z"/>
+  </g>
+</svg>
