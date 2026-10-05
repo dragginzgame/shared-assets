@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-10 -10 116 116" role="img" aria-labelledby="title">
-  <title id="title">IC Backup</title>
-  <rect x="-9.5" y="-9.5" width="115" height="115" rx="24" fill="#102D52" stroke="#294768"/>
-  <g fill="none" stroke="#5CD7EA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="48" cy="31" rx="23" ry="9"/><path d="M25 31V63C25 75 71 75 71 63V31M25 47C25 59 71 59 71 47M17 31C24 10 62 5 80 30C98 58 74 89 48 87M17 13V31H35"/>
-  </g>
-</svg>

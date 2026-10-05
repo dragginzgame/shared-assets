@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-labelledby="title desc">
   <title id="title">IcyDB</title>
-  <desc id="desc">A IcyDB README header using the shared navy, cyan and white style.</desc>
+  <desc id="desc">IcyDB. Store, organize and query data inside Internet Computer apps. A navy, cyan and white README header.</desc>
   <rect width="1280" height="200" rx="14" fill="#0B2244"/>
   <path d="M1010 0V52H1090V110H1170V166H1280M1130 0V35H1210V94H1280M963 200V147H1043V89H1123V0" fill="none" stroke="#294768" stroke-width="1.5"/>
   <g fill="#5CD7EA">
@@ -20,6 +20,6 @@
   <g font-family="Inter, Arial, sans-serif">
     <text x="190" y="60" fill="#5CD7EA" font-size="13" font-weight="700" letter-spacing="2.5">INTERNET COMPUTER</text>
     <text x="188" y="117" fill="#FFFFFF" font-size="46" font-weight="700">IcyDB</text>
-    <text x="190" y="153" fill="#B5C8DD" font-size="18">Developer tools</text>
+    <text x="190" y="153" fill="#B5C8DD" font-size="18">Store, organize and query data inside Internet Computer apps</text>
   </g>
 </svg>

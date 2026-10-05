@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="930" viewBox="0 0 1280 930" role="img" aria-labelledby="title desc">
+  <title id="title">When IcyDB may be useful</title>
+  <desc id="desc">IcyDB may suit structured IC application records, upgrade persistence, generated typed Rust access, indexes, relations and validation, predictable query costs and explicit schema migration. It may not suit external general-purpose SQL servers, joins across entity types, arbitrary unbounded queries, background threads, PostgreSQL-style transactions or automatic rollback, or atomic data sharing across canisters.</desc>
+  <rect width="1280" height="930" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · SUITABILITY GUIDE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">When it may be useful</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Compare your application’s needs with IcyDB’s intended query and storage model.</text>
+
+    <rect x="56" y="188" width="1168" height="672" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <path d="M74 188H640V260H56V206Q56 188 74 188Z" fill="#20765E"/>
+    <path d="M640 188H1206Q1224 188 1224 206V260H640Z" fill="#7354C6"/>
+    <text x="82" y="232" font-size="23" font-weight="700" fill="#FFFFFF">IcyDB may be useful when…</text>
+    <text x="666" y="232" font-size="23" font-weight="700" fill="#FFFFFF">It may not be suitable when…</text>
+    <g fill="#F0F6FB">
+      <rect x="57" y="360" width="1166" height="100"/>
+      <rect x="57" y="560" width="1166" height="100"/>
+      <path d="M57 760H1223V842Q1223 859 1206 859H74Q57 859 57 842Z"/>
+    </g>
+    <g stroke="#D7E3EF" stroke-width="1">
+      <path d="M640 260V859"/>
+      <path d="M56 360H1224M56 460H1224M56 560H1224M56 660H1224M56 760H1224"/>
+    </g>
+    <g font-size="21">
+      <text x="82" y="302">An IC application stores structured records</text>
+      <text x="666" y="295">The application needs a general-purpose</text>
+      <text x="666" y="326">external SQL server</text>
+
+      <text x="82" y="395">Data should survive ordinary</text>
+      <text x="82" y="426">canister upgrades</text>
+      <text x="666" y="395">Queries require joins across</text>
+      <text x="666" y="426">several entity types</text>
+
+      <text x="82" y="495">Developers want generated</text>
+      <text x="82" y="526">typed Rust access</text>
+      <text x="666" y="511">Arbitrary or unbounded queries are required</text>
+
+      <text x="82" y="595">Records need indexes,</text>
+      <text x="82" y="626">relations or validation</text>
+      <text x="666" y="611">The workload depends on background threads</text>
+
+      <text x="82" y="695">The application needs</text>
+      <text x="82" y="726">predictable query costs</text>
+      <text x="666" y="695">PostgreSQL-style transactions</text>
+      <text x="666" y="726">or automatic rollback are expected</text>
+
+      <text x="82" y="811">Schema changes need explicit migration</text>
+      <text x="666" y="795">Data must be shared atomically</text>
+      <text x="666" y="826">across multiple canisters</text>
+    </g>
+  </g>
+</svg>

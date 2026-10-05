@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+  <title id="title">IcyDB important terminology</title>
+  <desc id="desc">Plain-language definitions of schema, entity, stable memory, index, typed API, bounded query and single-entity SQL.</desc>
+  <rect width="1280" height="1000" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · IMPORTANT TERMINOLOGY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">The terms, in plain language</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">A quick reference for reading the documentation.</text>
+    <rect x="56" y="188" width="1168" height="756" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <path d="M74 188H1206Q1224 188 1224 206V260H56V206Q56 188 74 188Z" fill="#102B50"/>
+    <text x="82" y="233" font-size="22" font-weight="700" fill="#FFFFFF">Term</text>
+    <text x="426" y="233" font-size="22" font-weight="700" fill="#FFFFFF">Plain-language meaning</text>
+    <g fill="#F0F6FB">
+      <rect x="57" y="358" width="1166" height="98"/>
+      <rect x="57" y="554" width="1166" height="98"/>
+      <rect x="57" y="750" width="1166" height="98"/>
+    </g>
+    <g stroke="#D7E3EF" stroke-width="1">
+      <path d="M400 260V943"/>
+      <path d="M56 358H1224M56 456H1224M56 554H1224M56 652H1224M56 750H1224M56 848H1224"/>
+    </g>
+    <g font-size="22" font-weight="700">
+      <text x="82" y="317">Schema</text>
+      <text x="82" y="415">Entity</text>
+      <text x="82" y="513">Stable memory</text>
+      <text x="82" y="611">Index</text>
+      <text x="82" y="709">Typed API</text>
+      <text x="82" y="807">Bounded query</text>
+      <text x="82" y="905">Single-entity SQL</text>
+    </g>
+    <g font-size="21">
+      <text x="426" y="301">A blueprint describing the records and fields</text>
+      <text x="426" y="332">an application stores</text>
+      <text x="426" y="415">One kind of stored record, similar to a table row</text>
+      <text x="426" y="513">Long-term canister storage intended to survive upgrades</text>
+      <text x="426" y="595">An additional structure that makes selected</text>
+      <text x="426" y="626">searches faster</text>
+      <text x="426" y="693">Rust code where many invalid operations</text>
+      <text x="426" y="724">are caught during compilation</text>
+      <text x="426" y="791">A query whose work and resource use</text>
+      <text x="426" y="822">are explicitly limited</text>
+      <text x="426" y="889">SQL that works with one record type at a time;</text>
+      <text x="426" y="920">it does not support joins</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+  <title id="title">IcyDB at a glance</title>
+  <desc id="desc">Seven questions and answers about IcyDB: an embedded canister database library for structured records stored in heap or stable memory, with no separate server. Access uses typed Rust APIs, bounded dynamic queries and optional restricted SQL. The application controls authorisation. IcyDB supports a smaller, predictable query model than PostgreSQL.</desc>
+  <rect width="1280" height="1000" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · AT A GLANCE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">A database inside your canister</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">The essentials: what it stores, where it runs and what the application still owns.</text>
+
+    <rect x="56" y="188" width="1168" height="756" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <path d="M74 188H1206Q1224 188 1224 206V260H56V206Q56 188 74 188Z" fill="#102B50"/>
+    <text x="82" y="233" font-size="22" font-weight="700" fill="#FFFFFF">Question</text>
+    <text x="506" y="233" font-size="22" font-weight="700" fill="#FFFFFF">Answer</text>
+    <g fill="#F0F6FB">
+      <rect x="57" y="352" width="1166" height="104"/>
+      <rect x="57" y="548" width="1166" height="92"/>
+      <rect x="57" y="744" width="1166" height="104"/>
+    </g>
+    <g stroke="#D7E3EF" stroke-width="1">
+      <path d="M480 260V943"/>
+      <path d="M56 352H1224M56 456H1224M56 548H1224M56 640H1224M56 744H1224M56 848H1224"/>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="82" y="314">What is IcyDB?</text>
+      <text x="82" y="412">What does it store?</text>
+      <text x="82" y="510">Where is the data kept?</text>
+      <text x="82" y="602">Does it need a separate server?</text>
+      <text x="82" y="700">How is data accessed?</text>
+      <text x="82" y="804">Who controls access?</text>
+      <text x="82" y="904">Is it a PostgreSQL replacement?</text>
+    </g>
+    <g font-size="21">
+      <text x="506" y="299">A database library embedded inside</text>
+      <text x="506" y="330">an Internet Computer canister</text>
+      <text x="506" y="397">Structured records such as users, products, scores</text>
+      <text x="506" y="428">or application settings</text>
+      <text x="506" y="510">In the canister’s heap or long-term stable memory</text>
+      <text x="506" y="602">No. The database runs as part of the canister</text>
+      <text x="506" y="685">Typed Rust APIs, bounded dynamic queries</text>
+      <text x="506" y="716">and optional restricted SQL</text>
+      <text x="506" y="789">The application; IcyDB does not replace</text>
+      <text x="506" y="820">application authorisation</text>
+      <text x="506" y="889">No. It deliberately supports a smaller,</text>
+      <text x="506" y="920">predictable query model</text>
+    </g>
+  </g>
+</svg>

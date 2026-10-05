@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1400" viewBox="0 0 1280 1400" role="img" aria-labelledby="title desc">
+  <title id="title">IcyDB query journey</title>
+  <desc id="desc">An application endpoint applies application-owned authorisation, then submits a typed or SQL query request. IcyDB validates against the accepted schema and creates a deterministic bounded plan. Execution uses an index or admitted scan, reads stable records and returns bounded results. Application authorisation, schema validation, planning and execution have distinct responsibilities.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="1400" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · QUERY JOURNEY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">From an authorised request to bounded results</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Access policy, schema validation, planning and execution serve different purposes.</text>
+
+    <rect x="56" y="184" width="1168" height="232" rx="18" fill="#F5F1FD" stroke="#D9CDEE" stroke-width="1.5"/>
+    <text x="82" y="220" font-size="14" font-weight="700" letter-spacing="1.5" fill="#7354C6">APPLICATION OWNS ACCESS</text>
+    <rect x="360" y="206" width="820" height="76" rx="14" fill="#102B50"/>
+    <text x="770" y="254" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">Application endpoint</text>
+    <path d="M770 286V309" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="322" width="820" height="70" rx="14" fill="#FFFFFF" stroke="#D9CDEE"/>
+    <text x="770" y="366" text-anchor="middle" font-size="25" font-weight="700">Authorisation owned by the application</text>
+    <text x="82" y="270" font-size="18" fill="#53718F">Who may make</text><text x="82" y="296" font-size="18" fill="#53718F">this request?</text>
+
+    <rect x="56" y="448" width="1168" height="422" rx="18" fill="#F0FBFD" stroke="#B8E5EE" stroke-width="1.5"/>
+    <text x="82" y="484" font-size="14" font-weight="700" letter-spacing="1.5" fill="#0086A3">ICYDB · REQUEST &amp; PLAN</text>
+    <path d="M770 396V469" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="482" width="820" height="76" rx="14" fill="#FFFFFF" stroke="#B8E5EE"/>
+    <text x="770" y="530" text-anchor="middle" font-size="25" font-weight="700">Typed or SQL query request</text>
+    <path d="M770 562V599" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="612" width="820" height="76" rx="14" fill="#FFFFFF" stroke="#009DBD" stroke-width="2"/>
+    <text x="770" y="660" text-anchor="middle" font-size="25" font-weight="700">Validate against accepted schema</text>
+    <text x="82" y="642" font-size="18" fill="#53718F">Is the request valid</text><text x="82" y="668" font-size="18" fill="#53718F">for this data blueprint?</text>
+    <path d="M770 692V729" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="742" width="820" height="94" rx="14" fill="#FFFFFF" stroke="#009DBD" stroke-width="2"/>
+    <text x="770" y="796" text-anchor="middle" font-size="25" font-weight="700">Create deterministic bounded plan</text>
+    <text x="82" y="782" font-size="18" fill="#53718F">How will the query</text><text x="82" y="808" font-size="18" fill="#53718F">run within its limits?</text>
+
+    <rect x="56" y="902" width="1168" height="382" rx="18" fill="#EAF5FA" stroke="#AFCEDC" stroke-width="1.5"/>
+    <text x="82" y="938" font-size="14" font-weight="700" letter-spacing="1.5" fill="#53718F">ICYDB · EXECUTION</text>
+    <path d="M770 840V923" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="936" width="820" height="76" rx="14" fill="#FFFFFF" stroke="#D7E3EF"/>
+    <text x="770" y="984" text-anchor="middle" font-size="25" font-weight="700">Use an index or admitted scan</text>
+    <path d="M770 1016V1043" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="1056" width="820" height="76" rx="14" fill="#FFFFFF" stroke="#D7E3EF"/>
+    <text x="770" y="1104" text-anchor="middle" font-size="25" font-weight="700">Read stable records</text>
+    <text x="82" y="1077" font-size="18" fill="#53718F">Execute the plan</text><text x="82" y="1103" font-size="18" fill="#53718F">on canister data.</text>
+    <path d="M770 1136V1163" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="360" y="1176" width="820" height="76" rx="14" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="770" y="1224" text-anchor="middle" font-size="25" font-weight="700" fill="#20765E">Return bounded results</text>
+
+    <rect x="56" y="1316" width="1168" height="56" rx="12" fill="#102B50"/>
+    <text x="640" y="1351" text-anchor="middle" font-size="20" fill="#FFFFFF">A valid query and a bounded plan do not grant application access.</text>
+  </g>
+</svg>

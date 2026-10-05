@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1060" viewBox="0 0 1280 1060" role="img" aria-labelledby="title desc">
+  <title id="title">How IcyDB works inside an application canister</title>
+  <desc id="desc">The developer defines a data blueprint. IcyDB generates typed Rust interfaces. The application canister uses IcyDB to work with stable records and indexes and bounded query planning, producing application results. IcyDB runs inside the application canister and stores data in canister memory, not an external database server.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="1060" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · HOW IT WORKS</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Your data blueprint becomes a canister database</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">IcyDB runs as part of your application and keeps data in the canister’s own memory.</text>
+
+    <rect x="220" y="188" width="840" height="90" rx="16" fill="#102B50"/>
+    <text x="640" y="242" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">Developer defines the data blueprint</text>
+    <path d="M640 282V317" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="220" y="330" width="840" height="90" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="640" y="384" text-anchor="middle" font-size="26" font-weight="700">IcyDB generates typed Rust interfaces</text>
+
+    <rect x="56" y="458" width="1168" height="528" rx="22" fill="#EAF5FA" stroke="#AFCEDC" stroke-width="2"/>
+    <text x="82" y="495" font-size="14" font-weight="700" letter-spacing="1.5" fill="#53718F">INSIDE THE APPLICATION CANISTER</text>
+    <path d="M640 424V513" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="220" y="526" width="840" height="90" rx="16" fill="#102B50"/>
+    <text x="640" y="580" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">Application canister uses IcyDB</text>
+
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M500 620L354 683"/><path d="M780 620L926 683"/>
+    </g>
+    <rect x="100" y="696" width="508" height="126" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="672" y="696" width="508" height="126" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <text x="354" y="744" text-anchor="middle" font-size="25" font-weight="700">Stable records and indexes</text>
+    <text x="354" y="784" text-anchor="middle" font-size="19" fill="#53718F">Stored in canister memory</text>
+    <text x="926" y="744" text-anchor="middle" font-size="25" font-weight="700">Bounded query planning</text>
+    <text x="926" y="784" text-anchor="middle" font-size="19" fill="#53718F">Explicit limits on work and resource use</text>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M354 826L500 877"/><path d="M926 826L780 877"/>
+    </g>
+    <rect x="220" y="890" width="840" height="72" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="640" y="936" text-anchor="middle" font-size="27" font-weight="700" fill="#20765E">Application results</text>
+    <text x="640" y="1030" text-anchor="middle" font-size="19" fill="#53718F">The database lives inside the canister. No separate database server is required.</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1100" viewBox="0 0 1280 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Is IcyDB a good fit?</title>
+  <desc id="desc">Does your Internet Computer app store structured records? Should important data survive ordinary upgrades? Do you need filtering, sorting, indexes or relationships? Can queries work within predictable limits and mostly one entity type? If yes to all, IcyDB may be a good fit. General SQL servers, join-heavy analytics and unbounded workloads are outside its intended scope. Simpler storage may be enough without these structured-data needs.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="1100" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · DECISION GUIDE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Is IcyDB a good fit?</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Follow the Yes path to compare your data needs with the intended scope.</text>
+
+    <rect x="56" y="190" width="720" height="112" rx="18" fill="#102B50"/>
+    <text x="416" y="237" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">Does your Internet Computer app</text>
+    <text x="416" y="273" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">store structured records?</text>
+    <rect x="856" y="190" width="368" height="112" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="880" y="235" font-size="21" font-weight="700">May be unnecessary</text>
+    <text x="880" y="272" font-size="17" fill="#53718F">Consider simpler storage.</text>
+
+    <rect x="56" y="370" width="720" height="112" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="416" y="417" text-anchor="middle" font-size="25" font-weight="700">Should important data survive</text>
+    <text x="416" y="453" text-anchor="middle" font-size="25" font-weight="700">ordinary upgrades?</text>
+    <rect x="856" y="370" width="368" height="112" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="880" y="409" font-size="21" font-weight="700">Simpler storage may suffice</text>
+    <text x="880" y="440" font-size="17" fill="#53718F">Upgrade persistence is not</text>
+    <text x="880" y="465" font-size="17" fill="#53718F">a requirement for this data.</text>
+
+    <rect x="56" y="550" width="720" height="112" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="416" y="597" text-anchor="middle" font-size="25" font-weight="700">Do you need filtering, sorting,</text>
+    <text x="416" y="633" text-anchor="middle" font-size="25" font-weight="700">indexes or relationships?</text>
+    <rect x="856" y="550" width="368" height="112" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="880" y="595" font-size="21" font-weight="700">May be unnecessary</text>
+    <text x="880" y="632" font-size="17" fill="#53718F">Simpler record storage may suffice.</text>
+
+    <rect x="56" y="730" width="720" height="112" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="416" y="777" text-anchor="middle" font-size="25" font-weight="700">Can queries work within predictable limits</text>
+    <text x="416" y="813" text-anchor="middle" font-size="25" font-weight="700">and mostly one entity type?</text>
+    <rect x="856" y="730" width="368" height="134" rx="16" fill="#F5F1FD" stroke="#D9CDEE" stroke-width="1.5"/>
+    <text x="880" y="763" font-size="13" font-weight="700" letter-spacing="1" fill="#7354C6">OUTSIDE INTENDED SCOPE</text>
+    <text x="880" y="800" font-size="21" font-weight="700">Join-heavy analytics</text>
+    <text x="880" y="836" font-size="21" font-weight="700">Unbounded workloads</text>
+
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M416 306V357"/><path d="M416 486V537"/><path d="M416 666V717"/><path d="M416 846V901"/>
+      <path d="M780 246H844"/><path d="M780 426H844"/><path d="M780 606H844"/><path d="M780 786H844"/>
+    </g>
+    <g font-size="17" font-weight="700" fill="#0086A3">
+      <text x="437" y="340">Yes</text><text x="437" y="520">Yes</text><text x="437" y="700">Yes</text><text x="437" y="886">Yes</text>
+    </g>
+    <g font-size="16" font-weight="700" fill="#53718F" text-anchor="middle">
+      <text x="812" y="231">No</text><text x="812" y="411">No</text><text x="812" y="591">No</text><text x="812" y="771">No</text>
+    </g>
+    <rect x="56" y="914" width="720" height="80" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="416" y="963" text-anchor="middle" font-size="27" font-weight="700" fill="#20765E">IcyDB may be a good fit</text>
+    <rect x="856" y="914" width="368" height="134" rx="16" fill="#F5F1FD" stroke="#D9CDEE" stroke-width="1.5"/>
+    <text x="880" y="947" font-size="13" font-weight="700" letter-spacing="1" fill="#7354C6">NEED A GENERAL SQL SERVER?</text>
+    <text x="880" y="984" font-size="21" font-weight="700">Outside intended scope</text>
+    <text x="880" y="1019" font-size="17" fill="#53718F">IcyDB is embedded in your canister.</text>
+  </g>
+</svg>

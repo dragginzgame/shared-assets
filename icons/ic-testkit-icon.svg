@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-10 -10 116 116" role="img" aria-labelledby="title">
-  <title id="title">IC Testkit</title>
-  <rect x="-9.5" y="-9.5" width="115" height="115" rx="24" fill="#102D52" stroke="#294768"/>
-  <g fill="none" stroke="#5CD7EA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M35 13H61M39 13V38L20 72Q15 82 27 82H69Q81 82 76 72L57 38V13M30 61H66"/><path d="M36 64L44 72L60 54"/>
-  </g>
-</svg>

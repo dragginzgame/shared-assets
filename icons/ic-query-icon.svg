@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-10 -10 116 116" role="img" aria-labelledby="title">
-  <title id="title">IC Query</title>
-  <rect x="-9.5" y="-9.5" width="115" height="115" rx="24" fill="#102D52" stroke="#294768"/>
-  <g fill="none" stroke="#5CD7EA" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="38" cy="24" rx="26" ry="10"/><path d="M12 24V57C12 70 51 72 63 61M12 42C12 55 50 57 63 47M64 24V42"/><circle cx="62" cy="59" r="19" fill="#0B2244"/><path d="M76 73L87 84"/>
-  </g>
-</svg>

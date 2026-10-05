@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="960" viewBox="0 0 1280 960" role="img" aria-labelledby="title desc">
+  <title id="title">IcyDB schema lifecycle and upgrade expectations</title>
+  <desc id="desc">Schema declaration leads to the accepted runtime schema, stored records and indexes, a supported schema change and explicit bounded migration. Separately, pre-1.0 internal format changes may require recreation or reinstall. An internal format change is not an ordinary application schema migration.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="960" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">ICYDB · SCHEMA LIFECYCLE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">From schema declaration to explicit migration</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Supported application schema changes follow a deliberate, bounded migration path.</text>
+
+    <rect x="56" y="190" width="730" height="92" rx="16" fill="#102B50"/>
+    <text x="421" y="246" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">Schema declaration</text>
+    <path d="M421 286V329" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="56" y="342" width="730" height="92" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="421" y="398" text-anchor="middle" font-size="26" font-weight="700">Accepted runtime schema</text>
+    <path d="M421 438V481" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="56" y="494" width="730" height="92" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="421" y="550" text-anchor="middle" font-size="26" font-weight="700">Stored records and indexes</text>
+    <path d="M421 590V633" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="56" y="646" width="730" height="92" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <text x="421" y="702" text-anchor="middle" font-size="26" font-weight="700">Supported schema change</text>
+    <path d="M421 742V785" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="56" y="798" width="730" height="92" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="421" y="854" text-anchor="middle" font-size="26" font-weight="700" fill="#20765E">Explicit bounded migration</text>
+
+    <rect x="830" y="342" width="394" height="396" rx="18" fill="#FFF6E8" stroke="#E9C58D" stroke-width="1.5"/>
+    <path d="M862 378L877 352L892 378Z" fill="none" stroke="#95631B" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M877 361V368" stroke="#95631B" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="877" cy="373" r="1.5" fill="#95631B"/>
+    <text x="909" y="375" font-size="13" font-weight="700" letter-spacing="1.2" fill="#95631B">PRE-1.0 FORMAT CHANGES</text>
+    <text x="856" y="426" font-size="25" font-weight="700">Separate upgrade boundary</text>
+    <g font-size="20" fill="#53718F">
+      <text x="856" y="474">Internal format changes may</text>
+      <text x="856" y="506">require recreation or reinstall.</text>
+      <text x="856" y="563">They are not the same as</text>
+      <text x="856" y="595">an ordinary application</text>
+      <text x="856" y="627">schema migration.</text>
+    </g>
+    <path d="M856 659H1198" stroke="#E9C58D"/>
+    <text x="856" y="697" font-size="18" fill="#95631B">Check the release’s upgrade requirements.</text>
+  </g>
+</svg>
