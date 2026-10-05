@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="570" viewBox="0 0 1440 570" role="img" aria-labelledby="title desc">
+<title id="title">IC Query code ownership pipeline</title>
+<desc id="desc">Five ownership stages in order: parsing, runtime, report, source and cache, then model and rendering. Source and cache share one stage; model and rendering share the final stage. This overview follows the documented ownership pipeline without detailing individual modules.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+<rect width="1440" height="570" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · CODE OWNERSHIP</text>
+<text x="56" y="107" font-size="34" font-weight="700">The ownership pipeline, at a glance</text>
+<text x="56" y="143" font-size="19" fill="#53718F">Five stages, with clear responsibility boundaries.</text>
+<rect x="56" y="182" width="1328" height="316" rx="22" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<circle cx="192" cy="232" r="17" fill="#EDF3F9"/>
+<text x="192" y="238" text-anchor="middle" font-size="17" font-weight="700" fill="#102B50">1</text>
+<rect x="80" y="273" width="224" height="150" rx="16" fill="#EDF3F9" stroke="#A9BED3" stroke-width="1.5"/>
+<text x="192" y="357" text-anchor="middle" font-size="26" font-weight="700" fill="#102B50">Parsing</text>
+<path d="M314 348H334" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="462" cy="232" r="17" fill="#F0FBFD"/>
+<text x="462" y="238" text-anchor="middle" font-size="17" font-weight="700" fill="#087C94">2</text>
+<rect x="350" y="273" width="224" height="150" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="1.5"/>
+<text x="462" y="357" text-anchor="middle" font-size="26" font-weight="700" fill="#087C94">Runtime</text>
+<path d="M584 348H604" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="732" cy="232" r="17" fill="#F5F1FD"/>
+<text x="732" y="238" text-anchor="middle" font-size="17" font-weight="700" fill="#7354C6">3</text>
+<rect x="620" y="273" width="224" height="150" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="1.5"/>
+<text x="732" y="357" text-anchor="middle" font-size="26" font-weight="700" fill="#7354C6">Report</text>
+<path d="M854 348H874" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="1002" cy="232" r="17" fill="#EDF3F9"/>
+<text x="1002" y="238" text-anchor="middle" font-size="17" font-weight="700" fill="#102B50">4</text>
+<rect x="890" y="273" width="224" height="150" rx="16" fill="#EDF3F9" stroke="#A9BED3" stroke-width="1.5"/>
+<path d="M910 348H1094" stroke="#A9BED3" stroke-width="1.5"/>
+<text x="1002" y="318" text-anchor="middle" font-size="24" font-weight="700" fill="#102B50">Source</text>
+<text x="1002" y="391" text-anchor="middle" font-size="24" font-weight="700" fill="#102B50">Cache</text>
+<path d="M1124 348H1144" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="1272" cy="232" r="17" fill="#EAF7F1"/>
+<text x="1272" y="238" text-anchor="middle" font-size="17" font-weight="700" fill="#20765E">5</text>
+<rect x="1160" y="273" width="224" height="150" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<path d="M1180 348H1364" stroke="#9BD3BD" stroke-width="1.5"/>
+<text x="1272" y="318" text-anchor="middle" font-size="24" font-weight="700" fill="#20765E">Model</text>
+<text x="1272" y="391" text-anchor="middle" font-size="24" font-weight="700" fill="#20765E">Rendering</text>
+</g></svg>

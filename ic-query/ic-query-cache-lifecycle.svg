@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1220" viewBox="0 0 1440 1220" role="img" aria-labelledby="title desc">
+<title id="title">IC Query cache lifecycle</title>
+<desc id="desc">Check the local snapshot. A usable cache hit uses the cached snapshot. A stale, missing or invalid snapshot triggers refresh, followed by validation and atomic replacement. A refresh, validation or replacement failure preserves the previous snapshot, if one exists. Preservation does not make that snapshot valid or usable.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker>
+<marker id="safe-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#218B70"/></marker>
+<marker id="fail-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#C64535"/></marker>
+</defs>
+<rect width="1440" height="1220" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · CACHE LIFECYCLE</text>
+<text x="56" y="107" font-size="34" font-weight="700">Validate before replacing the snapshot.</text>
+<text x="56" y="143" font-size="19" fill="#53718F">A successful refresh replaces the cache atomically; failure preserves the previous snapshot.</text>
+<rect x="56" y="182" width="1328" height="972" rx="22" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+
+<rect x="400" y="218" width="640" height="86" rx="16" fill="#102B50"/>
+<text x="720" y="271" text-anchor="middle" font-size="26" font-weight="700" fill="white">Check local snapshot</text>
+<path d="M720 307V342H318V407" fill="none" stroke="#218B70" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#safe-arrow)"/>
+<path d="M720 342H950V407" fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="252" y="325" width="132" height="34" rx="17" fill="white"/>
+<text x="318" y="349" text-anchor="middle" font-size="18" font-weight="700" fill="#20765E">Cache hit</text>
+<rect x="797" y="325" width="306" height="34" rx="17" fill="white"/>
+<text x="950" y="349" text-anchor="middle" font-size="18" font-weight="600" fill="#53718F">Stale / missing / invalid</text>
+
+<rect x="116" y="424" width="404" height="106" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<text x="318" y="469" text-anchor="middle" font-size="24" font-weight="700" fill="#20765E">Use cached</text>
+<text x="318" y="502" text-anchor="middle" font-size="24" font-weight="700" fill="#20765E">snapshot</text>
+
+<rect x="724" y="424" width="452" height="86" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="1.5"/>
+<text x="950" y="477" text-anchor="middle" font-size="25" font-weight="700">Refresh</text>
+<path d="M950 513V560" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+<rect x="724" y="578" width="452" height="86" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+<text x="950" y="631" text-anchor="middle" font-size="25" font-weight="700">Validate new snapshot</text>
+<path d="M950 667V714" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+<rect x="724" y="732" width="452" height="106" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<text x="950" y="776" text-anchor="middle" font-size="25" font-weight="700" fill="#20765E">Atomic replacement</text>
+<text x="950" y="812" text-anchor="middle" font-size="19" fill="#53718F">Only after validation succeeds</text>
+
+<path d="M724 467H648V949H560M724 621H648M724 785H648" fill="none" stroke="#C64535" stroke-width="2.5" stroke-dasharray="6 5" stroke-linejoin="round" marker-end="url(#fail-arrow)"/>
+<rect x="596" y="548" width="104" height="32" rx="16" fill="white"/>
+<text x="648" y="570" text-anchor="middle" font-size="17" font-weight="700" fill="#A23B2F">Failure</text>
+
+<rect x="116" y="872" width="428" height="190" rx="18" fill="#FFF4F1" stroke="#EDB6AD" stroke-width="1.5"/>
+<text x="330" y="917" text-anchor="middle" font-size="24" font-weight="700" fill="#A23B2F">Preserve previous snapshot</text>
+<text x="330" y="952" text-anchor="middle" font-size="19" fill="#6B4C48">If one exists</text>
+<text x="330" y="997" text-anchor="middle" font-size="18" fill="#6B4C48">Preservation does not imply</text>
+<text x="330" y="1026" text-anchor="middle" font-size="18" fill="#6B4C48">that the snapshot is usable.</text>
+</g></svg>

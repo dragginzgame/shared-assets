@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1050" viewBox="0 0 1440 1050" role="img" aria-labelledby="title desc">
+<title id="title">IC Query CLI authority map</title>
+<desc id="desc">Main data sources by command family: icq ic uses certified IC state or the official Dashboard. icq nns uses Registry, Governance or Dashboard observations. icq sns uses SNS canisters. icq icrc uses ledgers, indexes, archives or official analytics. icq system uses system canisters. icq cloud-engine uses Registry, control plane and Dashboard.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+<rect width="1440" height="1050" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · CLI AUTHORITY MAP</text>
+<text x="56" y="107" font-size="34" font-weight="700">Where command families get their information</text>
+<text x="56" y="143" font-size="19" fill="#53718F">The main sources used by each family.</text>
+<rect x="56" y="182" width="1328" height="802" rx="22" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<text x="88" y="225" font-size="14" font-weight="700" letter-spacing="1.5" fill="#53718F">COMMAND FAMILY</text>
+<text x="650" y="225" font-size="14" font-weight="700" letter-spacing="1.5" fill="#53718F">MAIN DATA SOURCES</text>
+<rect x="88" y="254" width="414" height="94" rx="14" fill="#102B50"/>
+<text x="295" y="310" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="white">icq ic</text>
+<path d="M514 301H634" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="650" y="254" width="702" height="94" rx="14" fill="#F0FBFD" stroke="#A2DCE5" stroke-width="1.5"/>
+<text x="678" y="293" font-size="23" font-weight="600">Certified IC state</text>
+<text x="678" y="324" font-size="23" font-weight="600">or official Dashboard</text>
+<rect x="88" y="372" width="414" height="94" rx="14" fill="#102B50"/>
+<text x="295" y="428" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="white">icq nns</text>
+<path d="M514 419H634" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="650" y="372" width="702" height="94" rx="14" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<text x="678" y="411" font-size="23" font-weight="600">Registry, Governance,</text>
+<text x="678" y="442" font-size="23" font-weight="600">or Dashboard observations</text>
+<rect x="88" y="490" width="414" height="94" rx="14" fill="#102B50"/>
+<text x="295" y="546" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="white">icq sns</text>
+<path d="M514 537H634" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="650" y="490" width="702" height="94" rx="14" fill="#F0FBFD" stroke="#A2DCE5" stroke-width="1.5"/>
+<text x="678" y="546" font-size="23" font-weight="600">SNS canisters</text>
+<rect x="88" y="608" width="414" height="94" rx="14" fill="#102B50"/>
+<text x="295" y="664" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="white">icq icrc</text>
+<path d="M514 655H634" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="650" y="608" width="702" height="94" rx="14" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<text x="678" y="647" font-size="23" font-weight="600">Ledgers, indexes, archives,</text>
+<text x="678" y="678" font-size="23" font-weight="600">or official analytics</text>
+<rect x="88" y="726" width="414" height="94" rx="14" fill="#102B50"/>
+<text x="295" y="782" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="white">icq system</text>
+<path d="M514 773H634" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="650" y="726" width="702" height="94" rx="14" fill="#F0FBFD" stroke="#A2DCE5" stroke-width="1.5"/>
+<text x="678" y="782" font-size="23" font-weight="600">System canisters</text>
+<rect x="88" y="844" width="414" height="94" rx="14" fill="#102B50"/>
+<text x="295" y="900" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="white">icq cloud-engine</text>
+<path d="M514 891H634" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="650" y="844" width="702" height="94" rx="14" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<text x="678" y="883" font-size="23" font-weight="600">Registry, control plane,</text>
+<text x="678" y="914" font-size="23" font-weight="600">and Dashboard</text>
+</g></svg>

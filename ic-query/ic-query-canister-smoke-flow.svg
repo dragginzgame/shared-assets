@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1420" viewBox="0 0 1440 1420" role="img" aria-labelledby="title desc">
+<title id="title">IC Query canister smoke-test lifecycle</title>
+<desc id="desc">Build probe; start local NNS; deploy probe; verify module and metadata; run four reports; validate evidence; verify module again; clean up network; finalise receipt. A failure or interruption at any stage preserves partial receipts and attempts cleanup. Cleanup on this path is attempted, not guaranteed.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker>
+<marker id="side-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#B47420"/></marker>
+</defs>
+<rect width="1440" height="1420" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · CANISTER SMOKE TEST</text>
+<text x="56" y="107" font-size="34" font-weight="700">From probe build to final receipt</text>
+<text x="56" y="143" font-size="19" fill="#53718F">An ordered test flow with a separate failure and interruption path.</text>
+
+<rect x="56" y="182" width="772" height="1168" rx="22" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<text x="88" y="221" font-size="14" font-weight="700" letter-spacing="1.5" fill="#53718F">MAIN FLOW</text>
+<rect x="88" y="248" width="616" height="76" rx="14" fill="#EDF3F9" stroke="#B8CBDF" stroke-width="1.5"/>
+<circle cx="121" cy="286" r="17" fill="white"/>
+<text x="121" y="292" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">1</text>
+<text x="155" y="295" font-size="23" font-weight="700">Build probe</text>
+<path d="M396 327V352" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="368" width="616" height="76" rx="14" fill="#EDF3F9" stroke="#B8CBDF" stroke-width="1.5"/>
+<circle cx="121" cy="406" r="17" fill="white"/>
+<text x="121" y="412" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">2</text>
+<text x="155" y="415" font-size="23" font-weight="700">Start local NNS</text>
+<path d="M396 447V472" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="488" width="616" height="76" rx="14" fill="#EDF3F9" stroke="#B8CBDF" stroke-width="1.5"/>
+<circle cx="121" cy="526" r="17" fill="white"/>
+<text x="121" y="532" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">3</text>
+<text x="155" y="535" font-size="23" font-weight="700">Deploy probe</text>
+<path d="M396 567V592" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="608" width="616" height="76" rx="14" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<circle cx="121" cy="646" r="17" fill="white"/>
+<text x="121" y="652" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">4</text>
+<text x="155" y="655" font-size="23" font-weight="700">Verify module and metadata</text>
+<path d="M396 687V712" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="728" width="616" height="76" rx="14" fill="#EDF3F9" stroke="#B8CBDF" stroke-width="1.5"/>
+<circle cx="121" cy="766" r="17" fill="white"/>
+<text x="121" y="772" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">5</text>
+<text x="155" y="775" font-size="23" font-weight="700">Run four reports</text>
+<path d="M396 807V832" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="848" width="616" height="76" rx="14" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<circle cx="121" cy="886" r="17" fill="white"/>
+<text x="121" y="892" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">6</text>
+<text x="155" y="895" font-size="23" font-weight="700">Validate evidence</text>
+<path d="M396 927V952" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="968" width="616" height="76" rx="14" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<circle cx="121" cy="1006" r="17" fill="white"/>
+<text x="121" y="1012" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">7</text>
+<text x="155" y="1015" font-size="23" font-weight="700">Verify module again</text>
+<path d="M396 1047V1072" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="1088" width="616" height="76" rx="14" fill="#EDF3F9" stroke="#B8CBDF" stroke-width="1.5"/>
+<circle cx="121" cy="1126" r="17" fill="white"/>
+<text x="121" y="1132" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">8</text>
+<text x="155" y="1135" font-size="23" font-weight="700">Clean up network</text>
+<path d="M396 1167V1192" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="88" y="1208" width="616" height="76" rx="14" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<circle cx="121" cy="1246" r="17" fill="white"/>
+<text x="121" y="1252" text-anchor="middle" font-size="16" font-weight="700" fill="#53718F">9</text>
+<text x="155" y="1255" font-size="23" font-weight="700" fill="#20765E">Finalise receipt</text>
+
+<path d="M736 248H752V1284H736" fill="none" stroke="#B47420" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M752 590H892" fill="none" stroke="#B47420" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#side-arrow)"/>
+<text x="789" y="568" font-size="16" fill="#95601C">Any stage</text>
+
+<rect x="908" y="432" width="476" height="604" rx="22" fill="#FFF6E8" stroke="#E4C493" stroke-width="1.5"/>
+<text x="940" y="474" font-size="14" font-weight="700" letter-spacing="1.3" fill="#95601C">FAILURE / INTERRUPTION</text>
+
+<rect x="940" y="516" width="412" height="116" rx="16" fill="white" stroke="#E4C493" stroke-width="1.5"/>
+<text x="1146" y="564" text-anchor="middle" font-size="23" font-weight="700">Failure or</text>
+<text x="1146" y="595" text-anchor="middle" font-size="23" font-weight="700">interruption</text>
+<path d="M1146 635V672" fill="none" stroke="#B47420" stroke-width="2.5" marker-end="url(#side-arrow)"/>
+
+<rect x="940" y="688" width="412" height="96" rx="16" fill="white" stroke="#E4C493" stroke-width="1.5"/>
+<text x="1146" y="728" text-anchor="middle" font-size="23" font-weight="700">Preserve partial</text>
+<text x="1146" y="759" text-anchor="middle" font-size="23" font-weight="700">receipts</text>
+<path d="M1146 787V824" fill="none" stroke="#B47420" stroke-width="2.5" marker-end="url(#side-arrow)"/>
+
+<rect x="940" y="840" width="412" height="96" rx="16" fill="white" stroke="#E4C493" stroke-width="1.5"/>
+<text x="1146" y="897" text-anchor="middle" font-size="23" font-weight="700">Attempt cleanup</text>
+<text x="1146" y="984" text-anchor="middle" font-size="18" fill="#95601C">Cleanup is attempted, not guaranteed.</text>
+</g></svg>

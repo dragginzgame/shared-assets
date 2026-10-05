@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+<title id="title">IC Query library and runtime choices</title>
+<desc id="desc">Using ic-query: for data types and rendering only, use no default features. For a native application needing one reporting family, use a focused *-host feature; for all reporting families, use host. For an IC canister, use canister.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+<rect width="1400" height="860" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · LIBRARY AND RUNTIME CHOICES</text>
+<text x="56" y="107" font-size="34" font-weight="700">Choose features for your use case</text>
+<text x="56" y="143" font-size="19" fill="#53718F">Start with where and how you plan to use ic-query.</text>
+
+<rect x="56" y="182" width="1288" height="620" rx="22" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="88" y="402" width="250" height="86" rx="16" fill="#102B50"/>
+<text x="213" y="454" text-anchor="middle" font-size="25" font-weight="700" fill="white">Using ic-query</text>
+<path d="M340 445H376V298H414M376 445H414M376 445V684H414" fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="376" cy="445" r="4" fill="#71859A"/>
+
+<rect x="430" y="250" width="370" height="96" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="1.5"/>
+<text x="615" y="290" text-anchor="middle" font-size="23" font-weight="700">Data types and</text>
+<text x="615" y="321" text-anchor="middle" font-size="23" font-weight="700">rendering only</text>
+<path d="M802 298H881" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="898" y="258" width="410" height="80" rx="14" fill="#DDF6FA" stroke="#009DBD" stroke-width="1.5"/>
+<text x="1103" y="306" text-anchor="middle" font-size="23" font-weight="700" fill="#087C94">No default features</text>
+
+<rect x="430" y="400" width="370" height="90" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="1.5"/>
+<text x="615" y="454" text-anchor="middle" font-size="24" font-weight="700">Native application</text>
+<path d="M802 445H840V401H881M840 445V535H881" fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="898" y="357" width="410" height="100" rx="14" fill="#F5F1FD" stroke="#7354C6" stroke-width="1.5"/>
+<text x="922" y="391" font-size="20" font-weight="600">One reporting family</text>
+<text x="922" y="428" font-size="20" fill="#7354C6">Focused <tspan font-family="Consolas, monospace" font-weight="700">*-host</tspan> feature</text>
+
+<rect x="898" y="491" width="410" height="100" rx="14" fill="#F5F1FD" stroke="#7354C6" stroke-width="1.5"/>
+<text x="922" y="525" font-size="20" font-weight="600">All reporting families</text>
+<text x="922" y="562" font-family="Consolas, monospace" font-size="23" font-weight="700" fill="#7354C6">host</text>
+
+<rect x="430" y="641" width="370" height="86" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<text x="615" y="693" text-anchor="middle" font-size="24" font-weight="700">IC canister</text>
+<path d="M802 684H881" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="898" y="644" width="410" height="80" rx="14" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<text x="1103" y="693" text-anchor="middle" font-family="Consolas, monospace" font-size="25" font-weight="700" fill="#20765E">canister</text>
+</g></svg>
