@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="940" viewBox="0 0 1280 940" role="img" aria-labelledby="title desc">
+  <title id="title">IC Backup implementation boundary</title>
+  <desc id="desc">Implemented and locally tested: models, policy and persistence operations. Integration contracts are defined, but application integrations supply topology, authority, safe pause and restored-data validation. Still planned: IC transport, backup and restore runners, and CLI. Local safety components do not yet form a complete working canister backup or restore application.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="940" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · IMPLEMENTATION BOUNDARY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">What exists, and what still needs building</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Local safety components exist. A complete backup and restore application is still planned.</text>
+
+    <rect x="56" y="188" width="1168" height="230" rx="18" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="2"/>
+    <text x="82" y="229" font-size="24" font-weight="700" fill="#20765E">Implemented and locally tested</text>
+    <rect x="82" y="254" width="310" height="130" rx="14" fill="#FFFFFF" stroke="#9BD3BD"/>
+    <rect x="485" y="254" width="310" height="130" rx="14" fill="#FFFFFF" stroke="#9BD3BD"/>
+    <rect x="888" y="254" width="310" height="130" rx="14" fill="#FFFFFF" stroke="#9BD3BD"/>
+    <text x="108" y="296" font-size="25" font-weight="700">Models</text>
+    <text x="108" y="332" font-size="18" fill="#53718F">Plans, identities and</text>
+    <text x="108" y="358" font-size="18" fill="#53718F">recovery records</text>
+    <text x="511" y="296" font-size="25" font-weight="700">Policy</text>
+    <text x="511" y="332" font-size="18" fill="#53718F">Validation and safety</text>
+    <text x="511" y="358" font-size="18" fill="#53718F">decisions</text>
+    <text x="914" y="296" font-size="24" font-weight="700">Persistence operations</text>
+    <text x="914" y="332" font-size="18" fill="#53718F">Local journals, checksums</text>
+    <text x="914" y="358" font-size="18" fill="#53718F">and verified files</text>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M396 319H473"/><path d="M799 319H876"/><path d="M640 422V465"/>
+    </g>
+
+    <rect x="56" y="478" width="1168" height="130" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="82" y="514" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">DEFINED · SUPPLIED BY APPLICATION INTEGRATIONS</text>
+    <text x="82" y="550" font-size="26" font-weight="700">Integration contracts</text>
+    <text x="82" y="585" font-size="19" fill="#53718F">Canister grouping, authority, safe application pause and restored-data validity</text>
+    <path d="M640 612V655" fill="none" stroke="#71859A" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="668" width="1168" height="178" rx="18" fill="#F5F1FD" stroke="#7354C6" stroke-width="2" stroke-dasharray="8 5"/>
+    <text x="82" y="708" font-size="24" font-weight="700" fill="#7354C6">Still planned · not yet implemented</text>
+    <rect x="82" y="732" width="310" height="80" rx="14" fill="#FFFFFF" stroke="#D9CDEE" stroke-dasharray="6 4"/>
+    <rect x="485" y="732" width="310" height="80" rx="14" fill="#FFFFFF" stroke="#D9CDEE" stroke-dasharray="6 4"/>
+    <rect x="888" y="732" width="310" height="80" rx="14" fill="#FFFFFF" stroke="#D9CDEE" stroke-dasharray="6 4"/>
+    <g text-anchor="middle" font-size="24" font-weight="700">
+      <text x="237" y="781">IC transport</text>
+      <text x="640" y="765">Backup / restore</text><text x="640" y="796">runners</text>
+      <text x="1043" y="781">CLI</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)">
+      <path d="M396 772H473"/><path d="M799 772H876"/>
+    </g>
+    <text x="640" y="903" text-anchor="middle" font-size="19" fill="#53718F">Local tests establish the local components; end-to-end canister backup and restore are not implemented.</text>
+  </g>
+</svg>

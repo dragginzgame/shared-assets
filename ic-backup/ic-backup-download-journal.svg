@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="880" viewBox="0 0 1280 880" role="img" aria-labelledby="title desc">
+  <title id="title">IC Backup local download journal</title>
+  <desc id="desc">The implemented local artifact progression is Created, Downloaded, ChecksumVerified and Durable. After interruption or an uncertain local write, reopen the retained journal with the same exact intent, inspect saved progress and explicitly verify file evidence before continuing. Opening the journal alone does not reverify files or remote state. Durable establishes verified durable local publication, not complete canister backup or restore success.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="880" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · DOWNLOAD JOURNAL</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Local progress survives interruption</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Implemented local states for each exact canister snapshot’s files.</text>
+
+    <rect x="56" y="190" width="250" height="170" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <rect x="362" y="190" width="250" height="170" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="668" y="190" width="250" height="170" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <rect x="974" y="190" width="250" height="170" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <g font-size="25" font-weight="700">
+      <text x="80" y="236">Created</text><text x="386" y="236">Downloaded</text>
+      <text x="692" y="236">Checksum</text><text x="692" y="267">verified</text>
+      <text x="998" y="236" fill="#20765E">Durable</text>
+    </g>
+    <g font-size="18" fill="#53718F">
+      <text x="80" y="301">Exact intent and</text><text x="80" y="329">snapshot IDs retained</text>
+      <text x="386" y="301">Complete download</text><text x="386" y="329">recorded by the caller</text>
+      <text x="692" y="301">Staged bytes checked;</text><text x="692" y="329">checksum retained</text>
+      <text x="998" y="301">Verified files published</text><text x="998" y="329">durably on local storage</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M310 275H350"/><path d="M616 275H656"/><path d="M922 275H962"/>
+    </g>
+    <path d="M181 373V402H1099V373M640 402V453" fill="none" stroke="#71859A" stroke-width="2" stroke-dasharray="6 5"/>
+    <rect x="453" y="386" width="374" height="34" rx="17" fill="#F7FAFD"/>
+    <text x="640" y="409" text-anchor="middle" font-size="18" fill="#53718F">Interrupted or local write outcome uncertain</text>
+
+    <rect x="56" y="466" width="1168" height="212" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="504" font-size="22" font-weight="700">Reopen and inspect before continuing</text>
+    <rect x="82" y="526" width="310" height="88" rx="12" fill="#F0FBFD" stroke="#B8E5EE"/>
+    <rect x="485" y="526" width="310" height="88" rx="12" fill="#F0FBFD" stroke="#B8E5EE"/>
+    <rect x="888" y="526" width="310" height="88" rx="12" fill="#F0FBFD" stroke="#B8E5EE"/>
+    <g font-size="20" font-weight="700" text-anchor="middle">
+      <text x="237" y="561">Reopen retained journal</text><text x="237" y="590">with the same exact intent</text>
+      <text x="640" y="561">Inspect saved progress</text><text x="640" y="590">and file locations</text>
+      <text x="1043" y="561">Verify file evidence;</text><text x="1043" y="590">reconcile local publication</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M396 570H473"/><path d="M799 570H876"/>
+    </g>
+    <text x="82" y="651" font-size="18" fill="#53718F">Reopening reads the journal only. File verification is explicit; remote state is not rechecked by opening it.</text>
+
+    <rect x="56" y="710" width="1168" height="124" rx="16" fill="#102B50"/>
+    <text x="82" y="751" font-size="25" font-weight="700" fill="#FFFFFF">Durable proves local publication</text>
+    <text x="82" y="786" font-size="19" fill="#B5C8DD">It does not establish complete backup-product success, remote authority or a successful restore.</text>
+    <text x="82" y="813" font-size="19" fill="#B5C8DD">Continue only from validated retained progress; preserve conflicting or uncertain evidence.</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="910" viewBox="0 0 1280 910" role="img" aria-labelledby="title desc">
+  <title id="title">IC Backup product readiness</title>
+  <desc id="desc">Four stages towards a qualified backup product. Only stage one, the local safety foundation, is implemented. Application authority and consistency adapters, authenticated IC transport and runners, and PocketIC and live qualification remain ahead. Local implementation is not complete product readiness.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="910" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · PRODUCT READINESS</text>
+    <text x="56" y="107" font-size="34" font-weight="700">The foundation is implemented</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Three further stages remain before a qualified end-to-end backup product.</text>
+
+    <rect x="56" y="190" width="1168" height="122" rx="18" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="2"/>
+    <circle cx="105" cy="251" r="25" fill="#20765E"/>
+    <path d="M94 251L102 259L117 241" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="153" y="237" font-size="27" font-weight="700" fill="#20765E">Local safety foundation</text>
+    <text x="153" y="278" font-size="19" fill="#53718F">Models, policy, local persistence and interruption recovery</text>
+    <rect x="1016" y="214" width="182" height="34" rx="17" fill="#20765E"/>
+    <text x="1107" y="237" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">IMPLEMENTED</text>
+
+    <path d="M640 316V351" fill="none" stroke="#71859A" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+    <rect x="56" y="364" width="1168" height="122" rx="18" fill="#FFFFFF" stroke="#B8C8D8" stroke-width="1.5" stroke-dasharray="8 5"/>
+    <circle cx="105" cy="425" r="25" fill="#E7EEF5"/>
+    <text x="105" y="434" text-anchor="middle" font-size="25" font-weight="700" fill="#53718F">2</text>
+    <text x="153" y="411" font-size="27" font-weight="700">Application authority and consistency adapters</text>
+    <text x="153" y="452" font-size="19" fill="#53718F">Application-specific authority, safe pause and restored-data validation</text>
+    <text x="1198" y="387" text-anchor="end" font-size="13" font-weight="700" letter-spacing="1" fill="#53718F">WORK AHEAD</text>
+
+    <path d="M640 490V525" fill="none" stroke="#71859A" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+    <rect x="56" y="538" width="1168" height="122" rx="18" fill="#FFFFFF" stroke="#B8C8D8" stroke-width="1.5" stroke-dasharray="8 5"/>
+    <circle cx="105" cy="599" r="25" fill="#E7EEF5"/>
+    <text x="105" y="608" text-anchor="middle" font-size="25" font-weight="700" fill="#53718F">3</text>
+    <text x="153" y="585" font-size="27" font-weight="700">Authenticated IC transport and runners</text>
+    <text x="153" y="626" font-size="19" fill="#53718F">Connect to the Internet Computer and execute backup and restore workflows</text>
+    <text x="1198" y="561" text-anchor="end" font-size="13" font-weight="700" letter-spacing="1" fill="#53718F">WORK AHEAD</text>
+
+    <path d="M640 664V699" fill="none" stroke="#71859A" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+    <rect x="56" y="712" width="1168" height="122" rx="18" fill="#FFFFFF" stroke="#B8C8D8" stroke-width="1.5" stroke-dasharray="8 5"/>
+    <circle cx="105" cy="773" r="25" fill="#E7EEF5"/>
+    <text x="105" y="782" text-anchor="middle" font-size="25" font-weight="700" fill="#53718F">4</text>
+    <text x="153" y="759" font-size="27" font-weight="700">PocketIC and live qualification</text>
+    <text x="153" y="800" font-size="19" fill="#53718F">Demonstrate the complete recovery journey in local IC tests and live evidence</text>
+    <text x="1198" y="735" text-anchor="end" font-size="13" font-weight="700" letter-spacing="1" fill="#53718F">WORK AHEAD</text>
+
+    <text x="640" y="881" text-anchor="middle" font-size="19" fill="#53718F">Only the first stage is implemented. Local safety checks do not establish complete product readiness.</text>
+  </g>
+</svg>
