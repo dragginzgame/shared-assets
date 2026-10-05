@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+<title id="title">IC Query: how trustworthy is this answer?</title>
+<desc id="desc">Three evidence categories: verified certificate, direct network response, and official dashboard observation. The cards identify evidence sources rather than assigning trust scores. Read the answer's source, retrieval time and important limitations.</desc>
+<rect width="1400" height="560" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · ANSWER EVIDENCE</text>
+<text x="56" y="107" font-size="34" font-weight="700">How trustworthy is this answer?</text>
+<text x="56" y="143" font-size="19" fill="#53718F">Check what kind of evidence supports it.</text>
+<g transform="translate(56 198)">
+<rect width="384" height="250" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="28" width="104" height="104" rx="24" fill="#DDF6FA"/>
+<g transform="translate(152 40)" fill="none" stroke="#087C94" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"><path d="M40 6L66 17V40C66 57 54 70 40 77C26 70 14 57 14 40V17Z"/><path d="M27 40L37 50L55 29"/></g>
+<text x="192" y="188" text-anchor="middle" font-size="24" font-weight="700">Verified certificate</text>
+</g>
+<g transform="translate(508 198)">
+<rect width="384" height="250" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="28" width="104" height="104" rx="24" fill="#EEE8FB"/>
+<g transform="translate(152 40)" fill="none" stroke="#7354C6" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="26" width="24" height="30" rx="5"/><rect x="51" y="26" width="24" height="30" rx="5"/><path d="M32 34H47M42 29L47 34L42 39M48 49H33M38 44L33 49L38 54M12 35H22M58 35H68M12 45H17M58 45H63"/></g>
+<text x="192" y="176" text-anchor="middle" font-size="24" font-weight="700">Direct network</text>
+<text x="192" y="208" text-anchor="middle" font-size="24" font-weight="700">response</text>
+</g>
+<g transform="translate(960 198)">
+<rect width="384" height="250" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="28" width="104" height="104" rx="24" fill="#E1F3EC"/>
+<g transform="translate(152 40)" fill="none" stroke="#20765E" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="10" width="68" height="56" rx="7"/><path d="M6 25H74M17 18H18M25 18H26M17 55V39M28 55V46M39 55V33M52 36H63M52 46H63M52 56H61"/></g>
+<text x="192" y="176" text-anchor="middle" font-size="24" font-weight="700">Official dashboard</text>
+<text x="192" y="208" text-anchor="middle" font-size="24" font-weight="700">observation</text>
+</g>
+<text x="700" y="510" text-anchor="middle" font-size="18" fill="#53718F">Read the source, retrieval time and important limitations alongside the answer.</text>
+</g></svg>

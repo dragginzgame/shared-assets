@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="740" viewBox="0 0 1400 740" role="img" aria-labelledby="title desc">
+<title id="title">IC Query: what can I investigate?</title>
+<desc id="desc">Six investigation areas: applications, network and nodes, governance, projects, tokens, and rates and system data. Consult the accompanying text for commands and details.</desc>
+<rect width="1400" height="740" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · INVESTIGATION AREAS</text>
+<text x="56" y="107" font-size="34" font-weight="700">What can I investigate?</text>
+<text x="56" y="143" font-size="19" fill="#53718F">Six areas to explore with IC Query.</text>
+<g transform="translate(80 226)">
+<rect width="360" height="200" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="24" width="80" height="80" rx="20" fill="#DDF6FA"/>
+<g transform="translate(146 31)" fill="none" stroke="#087C94" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="58" height="48" rx="7"/><path d="M5 20H63M14 14H15M22 14H23"/><rect x="15" y="29" width="14" height="15" rx="3"/><path d="M38 32H54M38 41H50"/></g>
+<text x="180" y="151" text-anchor="middle" font-size="24" font-weight="700">Applications</text>
+</g>
+<g transform="translate(520 226)">
+<rect width="360" height="200" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="24" width="80" height="80" rx="20" fill="#EEE8FB"/>
+<g transform="translate(146 31)" fill="none" stroke="#7354C6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 16L50 16M18 16L34 50M50 16L34 50"/><circle cx="18" cy="16" r="8"/><circle cx="50" cy="16" r="8"/><circle cx="34" cy="50" r="8"/></g>
+<text x="180" y="151" text-anchor="middle" font-size="24" font-weight="700">Network and nodes</text>
+</g>
+<g transform="translate(960 226)">
+<rect width="360" height="200" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="24" width="80" height="80" rx="20" fill="#E1F3EC"/>
+<g transform="translate(146 31)" fill="none" stroke="#20765E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22L34 7L63 22ZM9 58H59M13 51H55M17 25V48M28 25V48M40 25V48M51 25V48"/></g>
+<text x="180" y="151" text-anchor="middle" font-size="24" font-weight="700">Governance</text>
+</g>
+<g transform="translate(80 466)">
+<rect width="360" height="200" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="24" width="80" height="80" rx="20" fill="#EEE8FB"/>
+<g transform="translate(146 31)" fill="none" stroke="#7354C6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17Q5 11 11 11H28L36 21H57Q63 21 63 27V51Q63 57 57 57H11Q5 57 5 51ZM5 30H63"/><path d="M17 40H30M17 48H45"/></g>
+<text x="180" y="151" text-anchor="middle" font-size="24" font-weight="700">Projects</text>
+</g>
+<g transform="translate(520 466)">
+<rect width="360" height="200" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="24" width="80" height="80" rx="20" fill="#DDF6FA"/>
+<g transform="translate(146 31)" fill="none" stroke="#087C94" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="28" cy="29" r="21"/><circle cx="28" cy="29" r="13"/><path d="M42 13C56 14 64 25 62 38C60 50 50 57 38 56M28 21V37M21 29H35"/></g>
+<text x="180" y="151" text-anchor="middle" font-size="24" font-weight="700">Tokens</text>
+</g>
+<g transform="translate(960 466)">
+<rect width="360" height="200" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="140" y="24" width="80" height="80" rx="20" fill="#E1F3EC"/>
+<g transform="translate(146 31)" fill="none" stroke="#20765E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8V58H62M17 45L29 33L39 39L58 18M49 18H58V27"/><path d="M17 54V48M29 54V43M41 54V46M53 54V37"/></g>
+<text x="180" y="140" text-anchor="middle" font-size="24" font-weight="700">Rates and</text>
+<text x="180" y="170" text-anchor="middle" font-size="24" font-weight="700">system data</text>
+</g>
+</g>
+</svg>

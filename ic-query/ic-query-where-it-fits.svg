@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
+<title id="title">Where ic-query fits</title>
+<desc id="desc">ic-query observes and reports. Tools such as dfx can deploy or change things. This compares their roles; it does not imply that deployment tools cannot also inspect information.</desc>
+<rect width="1200" height="490" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+  <text x="48" y="51" font-size="13" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · TOOL ROLES</text>
+  <text x="48" y="97" font-size="32" font-weight="700">Where ic-query fits</text>
+  <text x="48" y="132" font-size="18" fill="#53718F">Choose a tool for the task you want to do.</text>
+
+  <rect x="48" y="174" width="536" height="246" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+  <rect x="616" y="174" width="536" height="246" rx="18" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+
+  <rect x="76" y="202" width="66" height="66" rx="16" fill="#DDF6FA"/>
+  <g transform="translate(88 213)" fill="none" stroke="#087C94" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1 21C12 5 31 5 42 21C31 37 12 37 1 21Z"/>
+    <circle cx="21.5" cy="21" r="7"/>
+  </g>
+  <text x="164" y="245" font-size="27" font-weight="700" font-family="Consolas, monospace">ic-query</text>
+  <text x="76" y="321" font-size="27" font-weight="700" fill="#087C94">Observe and report</text>
+  <text x="76" y="361" font-size="20" fill="#53718F">Find information and read the results.</text>
+
+  <rect x="644" y="202" width="66" height="66" rx="16" fill="#EEE8FB"/>
+  <g transform="translate(658 215)" fill="none" stroke="#7354C6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="38" height="40" rx="5"/>
+    <path d="M19 29V10M11 18L19 10L27 18"/>
+  </g>
+  <text x="732" y="234" font-size="19" fill="#53718F">Tools such as</text>
+  <text x="732" y="262" font-size="27" font-weight="700" font-family="Consolas, monospace">dfx</text>
+  <text x="644" y="321" font-size="27" font-weight="700" fill="#7354C6">Deploy or change things</text>
+  <text x="644" y="361" font-size="20" fill="#53718F">Use when the task calls for an action.</text>
+</g>
+</svg>

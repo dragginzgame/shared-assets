@@ -1,26 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1060" viewBox="0 0 1280 1060" role="img" aria-labelledby="title desc">
-<title id="title">How IC Query works</title>
-<desc id="desc">A question or icq command selects a named source: certified state, a canister, the Registry or an official API. Bounds and validation precede the text report or JSON output. An optional local cache is shown separately with a two-way connection to the output.</desc>
+<title id="title">How IC Query answers your question</title>
+<desc id="desc">Your question. ic-query chooses the relevant official source. It checks and labels the information. You receive a readable answer with its source, retrieval time and important limitations.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
 <rect width="1280" height="1060" fill="#F7FAFD"/>
 <g font-family="Inter, Arial, sans-serif" fill="#102B50">
 <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · HOW IT WORKS</text>
-<text x="56" y="107" font-size="34" font-weight="700">From a question to a bounded report</text>
-<text x="56" y="143" font-size="19" fill="#53718F">Named sources, validation and readable results.</text>
+<text x="56" y="107" font-size="34" font-weight="700">From your question to a readable answer</text>
+<text x="56" y="143" font-size="19" fill="#53718F">See where the information came from and what it can tell you.</text>
 <rect x="220" y="182" width="840" height="88" rx="16" fill="#102B50"/>
-<text x="640" y="236" text-anchor="middle" font-size="26" font-weight="700" fill="white">Question / <tspan font-family="Consolas, monospace">icq</tspan> command</text>
+<text x="640" y="236" text-anchor="middle" font-size="26" font-weight="700" fill="white">Your question</text>
 <path d="M640 273V310" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
 <rect x="220" y="326" width="840" height="154" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
-<text x="640" y="369" text-anchor="middle" font-size="27" font-weight="700">Named source</text>
-<text x="640" y="413" text-anchor="middle" font-size="22" fill="#53718F">Certified state · Canister · Registry</text>
-<text x="640" y="447" text-anchor="middle" font-size="22" fill="#53718F">or official API</text>
+<text x="640" y="394" text-anchor="middle" font-size="25" font-weight="700">ic-query chooses the relevant</text>
+<text x="640" y="429" text-anchor="middle" font-size="25" font-weight="700">official source</text>
 <path d="M640 483V520" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
 <rect x="220" y="536" width="840" height="88" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
-<text x="640" y="590" text-anchor="middle" font-size="26" font-weight="700">Bounds and validation</text>
+<text x="640" y="590" text-anchor="middle" font-size="25" font-weight="700">It checks and labels the information</text>
 <path d="M640 627V664" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="220" y="680" width="840" height="88" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
-<text x="640" y="734" text-anchor="middle" font-size="26" font-weight="700" fill="#20765E">Text report or JSON</text>
-<path d="M640 787V839" fill="none" stroke="#71859A" stroke-width="2.5" stroke-dasharray="6 5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-<rect x="320" y="860" width="640" height="88" rx="16" fill="#EDF3F9" stroke="#A9BED3" stroke-width="1.5" stroke-dasharray="7 5"/>
-<text x="640" y="914" text-anchor="middle" font-size="25" font-weight="700">Optional local cache</text>
+<rect x="220" y="680" width="840" height="290" rx="18" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+<text x="640" y="735" text-anchor="middle" font-size="28" font-weight="700" fill="#20765E">A readable answer</text>
+<path d="M252 762H1028" stroke="#9BD3BD" stroke-width="1.5"/>
+<g fill="#20765E" font-size="25" font-weight="700">
+  <text x="392" y="813">+</text>
+  <text x="392" y="871">+</text>
+  <text x="392" y="929">+</text>
+</g>
+<g font-size="23">
+  <text x="428" y="813">Source</text>
+  <text x="428" y="871">Retrieval time</text>
+  <text x="428" y="929">Important limitations</text>
+</g>
 </g></svg>
