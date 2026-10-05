@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-labelledby="title desc">
-  <title id="title">IC Timers — Canic Helpers</title>
-  <desc id="desc">IC Timers, an Internet Computer helper library. A navy and cyan banner in the shared Canic Helpers style.</desc>
+  <title id="title">IC Timers</title>
+  <desc id="desc">IC Timers. Schedules and tracks background work. A navy and cyan README banner.</desc>
   <rect width="1280" height="200" rx="14" fill="#0B2244"/>
   <path d="M1010 0V52H1090V110H1170V166H1280M1130 0V35H1210V94H1280M963 200V147H1043V89H1123V0" fill="none" stroke="#294768" stroke-width="1.5"/>
   <g fill="#5CD7EA">
@@ -12,8 +12,7 @@
     <circle cx="48" cy="48" r="34"/><path d="M48 27V48L63 59M48 14V20M82 48H76M48 82V76M14 48H20"/>
   </g>
   <g font-family="Inter, Arial, sans-serif">
-    <text x="190" y="60" fill="#5CD7EA" font-size="13" font-weight="700" letter-spacing="2.5">CANIC HELPERS</text>
-    <text x="188" y="117" fill="#FFFFFF" font-size="46" font-weight="700">IC Timers</text>
-    <text x="190" y="153" fill="#B5C8DD" font-size="18">Internet Computer helper library</text>
+    <text x="188" y="105" fill="#FFFFFF" font-size="46" font-weight="700">IC Timers</text>
+    <text x="190" y="141" fill="#B5C8DD" font-size="18">Schedules and tracks background work</text>
   </g>
 </svg>

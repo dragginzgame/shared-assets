@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-labelledby="title desc">
-  <title id="title">IC Query — Canic Helpers</title>
-  <desc id="desc">IC Query, a read-only Internet Computer explorer. A navy and cyan banner in the shared Canic Helpers style.</desc>
+  <title id="title">IC Query</title>
+  <desc id="desc">IC Query, a read-only Internet Computer explorer. A navy and cyan README banner.</desc>
   <rect width="1280" height="200" rx="14" fill="#0B2244"/>
   <path d="M1010 0V52H1090V110H1170V166H1280M1130 0V35H1210V94H1280M963 200V147H1043V89H1123V0" fill="none" stroke="#294768" stroke-width="1.5"/>
   <g fill="#5CD7EA">
@@ -12,8 +12,7 @@
     <ellipse cx="38" cy="24" rx="26" ry="10"/><path d="M12 24V57C12 70 51 72 63 61M12 42C12 55 50 57 63 47M64 24V42"/><circle cx="62" cy="59" r="19" fill="#0B2244"/><path d="M76 73L87 84"/>
   </g>
   <g font-family="Inter, Arial, sans-serif">
-    <text x="190" y="60" fill="#5CD7EA" font-size="13" font-weight="700" letter-spacing="2.5">CANIC HELPERS</text>
-    <text x="188" y="117" fill="#FFFFFF" font-size="46" font-weight="700">IC Query</text>
-    <text x="190" y="153" fill="#B5C8DD" font-size="18">Read-only Internet Computer explorer</text>
+    <text x="188" y="105" fill="#FFFFFF" font-size="46" font-weight="700">IC Query</text>
+    <text x="190" y="141" fill="#B5C8DD" font-size="18">Read-only Internet Computer explorer</text>
   </g>
 </svg>
