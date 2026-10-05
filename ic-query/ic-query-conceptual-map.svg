@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1020" viewBox="0 0 1280 1020" role="img" aria-labelledby="title desc">
+<title id="title">Simplified conceptual map of Internet Computer relationships</title>
+<desc id="desc">NNS and Registry configure subnets. Subnets connect conceptually to nodes and canisters. SNS governance and ICRC ledgers are examples of canister-based services. This is a simplified conceptual map, not a complete architecture diagram.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+<rect width="1280" height="1020" fill="#F7FAFD"/>
+<g font-family="Inter, Arial, sans-serif" fill="#102B50">
+<text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC QUERY · INTERNET COMPUTER GLOSSARY</text>
+<text x="56" y="107" font-size="34" font-weight="700">How the main concepts relate</text>
+<text x="56" y="143" font-size="19" fill="#53718F">A simplified conceptual map, not a complete architecture diagram.</text>
+<rect x="56" y="182" width="1168" height="756" rx="22" fill="white" stroke="#D7E3EF" stroke-width="1.5"/>
+<rect x="410" y="220" width="460" height="88" rx="16" fill="#102B50"/>
+<text x="640" y="274" text-anchor="middle" font-size="27" font-weight="700" fill="white">NNS / Registry</text>
+<path d="M640 311V399" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="656" y="337" width="128" height="30" rx="15" fill="white"/><text x="671" y="358" font-size="18" fill="#53718F">Configures</text>
+<rect x="410" y="416" width="460" height="88" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+<text x="640" y="470" text-anchor="middle" font-size="27" font-weight="700">Subnets</text>
+<path d="M640 507V549H300V591M640 549H980V591" fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="640" cy="549" r="4" fill="#71859A"/>
+<rect x="140" y="608" width="320" height="88" rx="16" fill="#EDF3F9" stroke="#B8CBDF" stroke-width="1.5"/>
+<text x="300" y="662" text-anchor="middle" font-size="27" font-weight="700">Nodes</text>
+<rect x="820" y="608" width="320" height="88" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+<text x="980" y="662" text-anchor="middle" font-size="27" font-weight="700">Canisters</text>
+<path d="M980 699V747" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="538" y="763" width="674" height="145" rx="16" fill="#F5F1FD" stroke="#C6B7E8" stroke-width="1.5"/>
+<text x="566" y="791" font-size="14" font-weight="700" letter-spacing="1" fill="#7354C6">EXAMPLES OF CANISTER-BASED SERVICES</text>
+<rect x="562" y="810" width="310" height="72" rx="12" fill="white" stroke="#C6B7E8" stroke-width="1.5"/>
+<rect x="896" y="810" width="310" height="72" rx="12" fill="white" stroke="#C6B7E8" stroke-width="1.5"/>
+<text x="717" y="855" text-anchor="middle" font-size="22" font-weight="600">SNS governance</text>
+<text x="1051" y="855" text-anchor="middle" font-size="22" font-weight="600">ICRC ledgers</text>
+</g></svg>
