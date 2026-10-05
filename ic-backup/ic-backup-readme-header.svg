@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200" role="img" aria-labelledby="title desc">
-  <title id="title">IC Backup — Canic Helpers</title>
-  <desc id="desc">IC Backup, an Internet Computer helper library. A navy and cyan banner in the shared Canic Helpers style.</desc>
+  <title id="title">IC Backup</title>
+  <desc id="desc">IC Backup. Verified backups and safe recovery for Internet Computer apps. A navy and cyan README banner.</desc>
   <rect width="1280" height="200" rx="14" fill="#0B2244"/>
   <path d="M1010 0V52H1090V110H1170V166H1280M1130 0V35H1210V94H1280M963 200V147H1043V89H1123V0" fill="none" stroke="#294768" stroke-width="1.5"/>
   <g fill="#5CD7EA">
@@ -12,8 +12,7 @@
     <ellipse cx="48" cy="31" rx="23" ry="9"/><path d="M25 31V63C25 75 71 75 71 63V31M25 47C25 59 71 59 71 47M17 31C24 10 62 5 80 30C98 58 74 89 48 87M17 13V31H35"/>
   </g>
   <g font-family="Inter, Arial, sans-serif">
-    <text x="190" y="60" fill="#5CD7EA" font-size="13" font-weight="700" letter-spacing="2.5">CANIC HELPERS</text>
-    <text x="188" y="117" fill="#FFFFFF" font-size="46" font-weight="700">IC Backup</text>
-    <text x="190" y="153" fill="#B5C8DD" font-size="18">Internet Computer helper library</text>
+    <text x="188" y="105" fill="#FFFFFF" font-size="46" font-weight="700">IC Backup</text>
+    <text x="190" y="141" fill="#B5C8DD" font-size="18">Verified backups and safe recovery for Internet Computer apps</text>
   </g>
 </svg>

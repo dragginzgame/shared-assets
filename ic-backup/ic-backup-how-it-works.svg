@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">How IC Backup works</title>
+  <desc id="desc">Left to right: an application operator selects canisters and reviews the backup plan, creates Internet Computer snapshots, downloads and verifies the snapshot files, and keeps a durable local backup bundle. If recovery is needed, restore the same canisters. Downloaded backup files live on the operator's machine or server, outside the application. Internet Computer snapshots and the local backup bundle are distinct.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1600" height="620" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · HOW IT WORKS</text>
+    <text x="56" y="107" font-size="34" font-weight="700">From a reviewed plan to a durable backup</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Read left to right. Keep verified backup files outside the application.</text>
+
+    <rect x="796" y="184" width="504" height="282" rx="22" fill="#E5F7FB" stroke="#B8E5EE" stroke-width="1.5"/>
+    <text x="1048" y="219" text-anchor="middle" font-size="16" font-weight="700" fill="#0086A3">OPERATOR’S MACHINE OR SERVER</text>
+
+    <rect x="56" y="240" width="220" height="198" rx="16" fill="#102B50"/>
+    <rect x="308" y="240" width="220" height="198" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <rect x="560" y="240" width="220" height="198" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <rect x="812" y="240" width="220" height="198" rx="16" fill="#FFFFFF" stroke="#009DBD" stroke-width="2"/>
+    <rect x="1064" y="240" width="220" height="198" rx="16" fill="#FFFFFF" stroke="#009DBD" stroke-width="2"/>
+    <rect x="1316" y="240" width="220" height="198" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <g font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">
+      <text x="78" y="273" fill="#5CD7EA">01</text><text x="330" y="273">02</text><text x="582" y="273">03</text>
+      <text x="834" y="273">04</text><text x="1086" y="273">05</text><text x="1338" y="273">IF NEEDED</text>
+    </g>
+    <g font-size="24" font-weight="700">
+      <text x="78" y="311" fill="#FFFFFF">Application</text><text x="78" y="343" fill="#FFFFFF">operator</text>
+      <text x="330" y="311">Select &amp;</text><text x="330" y="343">review</text>
+      <text x="582" y="311">Create</text><text x="582" y="343">snapshots</text>
+      <text x="834" y="311">Download</text><text x="834" y="343">&amp; verify</text>
+      <text x="1086" y="311">Keep a local</text><text x="1086" y="343">backup bundle</text>
+      <text x="1338" y="311" fill="#20765E">Restore</text><text x="1338" y="343" fill="#20765E">same canisters</text>
+    </g>
+    <g font-size="18" fill="#53718F">
+      <text x="78" y="385" fill="#B5C8DD">Controls the</text><text x="78" y="411" fill="#B5C8DD">backup workflow</text>
+      <text x="330" y="385">Choose canisters;</text><text x="330" y="411">review the plan</text>
+      <text x="582" y="385">Internet Computer</text><text x="582" y="411">snapshot capture</text>
+      <text x="834" y="385">Retrieve and check</text><text x="834" y="411">the snapshot files</text>
+      <text x="1086" y="385">Durable files on</text><text x="1086" y="411">your own storage</text>
+      <text x="1338" y="385">Recover the original</text><text x="1338" y="411">canister targets</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M280 337H301"/><path d="M532 337H553"/><path d="M784 337H805"/>
+      <path d="M1036 337H1057"/><path d="M1288 337H1309"/>
+    </g>
+    <rect x="56" y="502" width="1480" height="70" rx="16" fill="#102B50"/>
+    <text x="796" y="545" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">The downloaded backup bundle lives on the operator’s machine or server, outside the application.</text>
+  </g>
+</svg>

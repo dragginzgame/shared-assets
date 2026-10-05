@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650" role="img" aria-labelledby="title desc">
+  <title id="title">IC Backup interruption recovery</title>
+  <desc id="desc">Record exact intent before performing one operation. If the result arrives, receive it. If the reply is lost, inspect retained evidence and reconcile what happened. A missing reply does not prove that the operation failed. Do not blindly repeat the operation.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="650" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · INTERRUPTION RECOVERY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">A lost reply needs investigation</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">The operation may have completed even when its reply did not arrive.</text>
+
+    <rect x="56" y="190" width="340" height="106" rx="16" fill="#102B50"/>
+    <rect x="470" y="190" width="340" height="106" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="884" y="190" width="340" height="106" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <g text-anchor="middle" font-size="25" font-weight="700">
+      <text x="226" y="253" fill="#FFFFFF">Record exact intent</text>
+      <text x="640" y="235">Perform one</text><text x="640" y="269">operation</text>
+      <text x="1054" y="253" fill="#20765E">Receive result</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M400 243H458"/><path d="M814 243H872"/>
+      <path d="M640 300V381"/>
+    </g>
+    <rect x="660" y="321" width="128" height="34" rx="17" fill="#F5F1FD"/>
+    <text x="724" y="344" text-anchor="middle" font-size="18" font-weight="700" fill="#7354C6">Reply lost</text>
+
+    <rect x="350" y="394" width="580" height="80" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <text x="640" y="443" text-anchor="middle" font-size="24" font-weight="700">Inspect retained evidence</text>
+    <path d="M640 478V507" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="350" y="520" width="580" height="80" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="640" y="569" text-anchor="middle" font-size="24" font-weight="700">Reconcile what happened</text>
+
+    <rect x="958" y="394" width="266" height="206" rx="16" fill="#FFF6E8" stroke="#E9C58D" stroke-width="1.5"/>
+    <text x="984" y="435" font-size="13" font-weight="700" letter-spacing="1.5" fill="#95631B">SAFETY RULE</text>
+    <text x="984" y="478" font-size="25" font-weight="700">Do not blindly</text>
+    <text x="984" y="512" font-size="25" font-weight="700">repeat</text>
+    <text x="984" y="551" font-size="18" fill="#53718F">A missing reply is</text>
+    <text x="984" y="577" font-size="18" fill="#53718F">not proof of failure.</text>
+  </g>
+</svg>

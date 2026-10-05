@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" role="img" aria-labelledby="title desc">
+  <title id="title">IC Backup responsibility boundary</title>
+  <desc id="desc">ic-backup owns local backup plans, journals, checksums, verified files and interruption recovery. The application integration owns which canisters belong together, who has authority, when the application is safely paused and whether restored data is valid. The Internet Computer supplies actual snapshot and canister lifecycle operations. Verified backup files and a valid restored application are separate responsibilities.</desc>
+  <rect width="1280" height="740" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · RESPONSIBILITY BOUNDARY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Three owners. Three responsibilities.</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">The backup workflow, application safety and platform operations each have a clear owner.</text>
+
+    <rect x="56" y="190" width="368" height="402" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="456" y="190" width="368" height="402" rx="18" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <rect x="856" y="190" width="368" height="402" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+
+    <text x="82" y="229" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">LOCAL BACKUP WORKFLOW</text>
+    <text x="82" y="274" font-size="29" font-weight="700">ic-backup</text>
+    <path d="M82 296H398" stroke="#B8E5EE" stroke-width="1.5"/>
+    <g font-size="21">
+      <text x="82" y="338">Local plans</text>
+      <text x="82" y="384">Operation journals</text>
+      <text x="82" y="430">Checksums</text>
+      <text x="82" y="476">Verified backup files</text>
+      <text x="82" y="522">Interruption recovery</text>
+    </g>
+    <text x="82" y="565" font-size="17" fill="#53718F">Keeps the local workflow recoverable.</text>
+
+    <text x="482" y="229" font-size="13" font-weight="700" letter-spacing="1.5" fill="#7354C6">APPLICATION SAFETY</text>
+    <text x="482" y="264" font-size="26" font-weight="700">Application</text>
+    <text x="482" y="290" font-size="26" font-weight="700">integration</text>
+    <path d="M482 310H798" stroke="#D9CDEE" stroke-width="1.5"/>
+    <g font-size="20">
+      <text x="482" y="348">Which canisters belong together</text>
+      <text x="482" y="399">Who has authority</text>
+      <text x="482" y="450">When it is safe to pause</text>
+      <text x="482" y="501">Whether restored data is valid</text>
+    </g>
+    <text x="482" y="565" font-size="17" fill="#53718F">Defines a safe application recovery.</text>
+
+    <text x="882" y="229" font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">PLATFORM OPERATIONS</text>
+    <text x="882" y="264" font-size="26" font-weight="700">Internet Computer</text>
+    <path d="M882 296H1198" stroke="#D7E3EF" stroke-width="1.5"/>
+    <g font-size="21">
+      <text x="882" y="348">Actual snapshot operations</text>
+      <text x="882" y="399">Canister lifecycle operations</text>
+    </g>
+    <text x="882" y="466" font-size="18" fill="#53718F">Executes the platform calls</text>
+    <text x="882" y="494" font-size="18" fill="#53718F">used by the backup workflow.</text>
+    <text x="882" y="565" font-size="17" fill="#53718F">Supplies the snapshot mechanism.</text>
+
+    <rect x="56" y="624" width="1168" height="78" rx="16" fill="#102B50"/>
+    <text x="640" y="657" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Verified files and valid application state are separate responsibilities.</text>
+    <text x="640" y="687" text-anchor="middle" font-size="18" fill="#B5C8DD">ic-backup verifies the backup files; the integration validates the restored application.</text>
+  </g>
+</svg>

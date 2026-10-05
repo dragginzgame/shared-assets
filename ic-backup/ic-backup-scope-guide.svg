@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1030" viewBox="0 0 1280 1030" role="img" aria-labelledby="title desc">
+  <title id="title">Is IC Backup appropriate for your application?</title>
+  <desc id="desc">Do you operate an Internet Computer application? Does it contain state you need to recover? Do you need an independent local copy? Will recovery use the same canisters and software release? If all answers are yes, ic-backup may be appropriate. General personal-file backup, cloning to new canisters and cross-release migration are outside its scope. Without recoverable state or a need for a local copy, this workflow may be unnecessary.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="1030" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BACKUP · SCOPE GUIDE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Is IC Backup a fit?</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Follow the Yes path to check whether your recovery needs match its scope.</text>
+
+    <rect x="56" y="190" width="720" height="112" rx="18" fill="#102B50"/>
+    <text x="416" y="237" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">Do you operate an</text>
+    <text x="416" y="273" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">Internet Computer application?</text>
+    <rect x="856" y="190" width="368" height="112" rx="16" fill="#F5F1FD" stroke="#D9CDEE" stroke-width="1.5"/>
+    <text x="880" y="225" font-size="13" font-weight="700" letter-spacing="1" fill="#7354C6">OUTSIDE SCOPE</text>
+    <text x="880" y="257" font-size="21" font-weight="700">General personal-file backup</text>
+    <text x="880" y="284" font-size="17" fill="#53718F">Use a general backup tool.</text>
+
+    <rect x="56" y="370" width="720" height="112" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="416" y="417" text-anchor="middle" font-size="25" font-weight="700">Does it contain state</text>
+    <text x="416" y="453" text-anchor="middle" font-size="25" font-weight="700">you need to recover?</text>
+    <rect x="856" y="370" width="368" height="112" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="880" y="415" font-size="21" font-weight="700">May be unnecessary</text>
+    <text x="880" y="451" font-size="17" fill="#53718F">No recovery need identified.</text>
+
+    <rect x="56" y="550" width="720" height="112" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="416" y="597" text-anchor="middle" font-size="25" font-weight="700">Do you need an</text>
+    <text x="416" y="633" text-anchor="middle" font-size="25" font-weight="700">independent local copy?</text>
+    <rect x="856" y="550" width="368" height="112" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="880" y="595" font-size="21" font-weight="700">May be unnecessary</text>
+    <text x="880" y="631" font-size="17" fill="#53718F">No independent local copy needed.</text>
+
+    <rect x="56" y="730" width="720" height="112" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="416" y="777" text-anchor="middle" font-size="25" font-weight="700">Will recovery use the same canisters</text>
+    <text x="416" y="813" text-anchor="middle" font-size="25" font-weight="700">and software release?</text>
+    <rect x="856" y="716" width="368" height="140" rx="16" fill="#F5F1FD" stroke="#D9CDEE" stroke-width="1.5"/>
+    <text x="880" y="751" font-size="13" font-weight="700" letter-spacing="1" fill="#7354C6">OUTSIDE SCOPE</text>
+    <text x="880" y="786" font-size="21" font-weight="700">Cloning to new canisters</text>
+    <text x="880" y="821" font-size="21" font-weight="700">Cross-release migration</text>
+
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M416 306V357"/><path d="M416 486V537"/><path d="M416 666V717"/><path d="M416 846V905"/>
+      <path d="M780 246H844"/><path d="M780 426H844"/><path d="M780 606H844"/><path d="M780 786H844"/>
+    </g>
+    <g font-size="17" font-weight="700" fill="#0086A3">
+      <text x="437" y="340">Yes</text><text x="437" y="520">Yes</text><text x="437" y="700">Yes</text><text x="437" y="886">Yes</text>
+    </g>
+    <g font-size="16" font-weight="700" fill="#53718F" text-anchor="middle">
+      <text x="812" y="231">No</text><text x="812" y="411">No</text><text x="812" y="591">No</text><text x="812" y="771">No</text>
+    </g>
+    <rect x="56" y="918" width="720" height="80" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="416" y="967" text-anchor="middle" font-size="27" font-weight="700" fill="#20765E">ic-backup may be appropriate</text>
+  </g>
+</svg>
