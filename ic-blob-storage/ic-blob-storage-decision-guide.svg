@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="850" viewBox="0 0 1280 850" role="img" aria-labelledby="title desc">
+  <title id="title">When is IC Blob Storage useful?</title>
+  <desc id="desc">Does your app handle large files? If no, keep ordinary app storage. If yes, do files need upload control, verification, quotas or reuse tracking? If no, simpler storage may be enough. If yes, consider ic-blob-storage.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker>
+  </defs>
+  <rect width="1280" height="850" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · DECISION GUIDE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">When is it useful?</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Start with the files your app handles and the controls they need.</text>
+
+    <rect x="300" y="188" width="680" height="100" rx="18" fill="#102B50"/>
+    <text x="640" y="249" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">Does your app handle large files?</text>
+
+    <g fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)">
+      <path d="M640 292V329H256V393"/>
+      <path d="M640 329H866V393"/>
+    </g>
+    <rect x="220" y="313" width="72" height="32" rx="16" fill="#E7EEF5"/>
+    <text x="256" y="335" text-anchor="middle" font-size="17" font-weight="700" fill="#53718F">No</text>
+    <rect x="830" y="313" width="72" height="32" rx="16" fill="#DDF5FA"/>
+    <text x="866" y="335" text-anchor="middle" font-size="17" font-weight="700" fill="#0086A3">Yes</text>
+
+    <rect x="56" y="404" width="400" height="152" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="256" y="468" text-anchor="middle" font-size="26" font-weight="700">Keep ordinary</text>
+    <text x="256" y="505" text-anchor="middle" font-size="26" font-weight="700">app storage</text>
+
+    <rect x="508" y="404" width="716" height="152" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="866" y="449" text-anchor="middle" font-size="25" font-weight="700">Do files need upload control,</text>
+    <text x="866" y="485" text-anchor="middle" font-size="25" font-weight="700">verification, quotas,</text>
+    <text x="866" y="521" text-anchor="middle" font-size="25" font-weight="700">or reuse tracking?</text>
+
+    <g fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)">
+      <path d="M866 560V596H682V660"/>
+      <path d="M866 596H1050V660"/>
+    </g>
+    <rect x="646" y="580" width="72" height="32" rx="16" fill="#E7EEF5"/>
+    <text x="682" y="602" text-anchor="middle" font-size="17" font-weight="700" fill="#53718F">No</text>
+    <rect x="1014" y="580" width="72" height="32" rx="16" fill="#DDF5FA"/>
+    <text x="1050" y="602" text-anchor="middle" font-size="17" font-weight="700" fill="#0086A3">Yes</text>
+
+    <rect x="508" y="671" width="348" height="128" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="682" y="726" text-anchor="middle" font-size="24" font-weight="700">Simpler storage</text>
+    <text x="682" y="762" text-anchor="middle" font-size="24" font-weight="700">may be enough</text>
+
+    <rect x="876" y="671" width="348" height="128" rx="18" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="1050" y="726" text-anchor="middle" font-size="24" font-weight="700" fill="#20765E">Consider</text>
+    <text x="1050" y="762" text-anchor="middle" font-size="24" font-weight="700" fill="#20765E">ic-blob-storage</text>
+  </g>
+</svg>

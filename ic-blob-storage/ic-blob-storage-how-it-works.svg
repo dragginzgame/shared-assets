@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="980" viewBox="0 0 1280 980" role="img" aria-labelledby="title desc">
+  <title id="title">How IC Blob Storage manages an upload</title>
+  <desc id="desc">A person or app requests upload permission. ic-blob-storage approves limits and records intent. The browser or client sends file bytes directly to Caffeine storage. A verifier checks the complete file, then ic-blob-storage records confirmation. The app can safely reference the confirmed file. ic-blob-storage manages permissions, verification, references, limits and records; Caffeine stores the file bytes.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker>
+    <marker id="upload-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#009DBD"/></marker>
+  </defs>
+  <rect width="1280" height="980" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · HOW IT WORKS</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Upload directly. Reference with confidence.</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Caffeine stores the bytes. ic-blob-storage manages the upload lifecycle.</text>
+
+    <rect x="56" y="184" width="536" height="86" rx="16" fill="#102B50"/>
+    <text x="324" y="236" text-anchor="middle" font-size="26" font-weight="700" fill="#FFFFFF">Person or app</text>
+    <path d="M324 274V333" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="345" y="310" font-size="18" fill="#53718F">Asks for upload permission</text>
+
+    <rect x="56" y="344" width="536" height="112" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="82" y="382" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">1 · PERMISSION</text>
+    <text x="82" y="415" font-size="25" font-weight="700">ic-blob-storage</text>
+    <text x="82" y="442" font-size="18" fill="#53718F">Approves limits and records upload intent</text>
+    <path d="M324 460V497" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="508" width="420" height="106" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="545" font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">2 · DIRECT UPLOAD</text>
+    <text x="82" y="584" font-size="25" font-weight="700">Browser / client</text>
+    <path d="M480 566H788" fill="none" stroke="#009DBD" stroke-width="4" marker-end="url(#upload-arrow)"/>
+    <text x="635" y="540" text-anchor="middle" font-size="22" font-weight="700" fill="#0086A3">File bytes</text>
+    <text x="635" y="602" text-anchor="middle" font-size="16" fill="#53718F">Direct to Caffeine</text>
+
+    <rect x="800" y="508" width="424" height="106" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="826" y="552" font-size="25" font-weight="700">Caffeine storage</text>
+    <text x="826" y="584" font-size="18" fill="#53718F">Holds the uploaded file bytes</text>
+    <path d="M1012 618V651" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="800" y="662" width="424" height="112" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <text x="826" y="698" font-size="13" font-weight="700" letter-spacing="1.5" fill="#7354C6">3 · VERIFICATION</text>
+    <text x="826" y="730" font-size="25" font-weight="700">Verifier</text>
+    <text x="826" y="757" font-size="18" fill="#53718F">Checks the complete file</text>
+    <path d="M796 719H603" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="696" y="701" text-anchor="middle" font-size="16" fill="#53718F">Verified</text>
+
+    <rect x="56" y="662" width="536" height="112" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="82" y="698" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">4 · CONFIRMATION</text>
+    <text x="82" y="730" font-size="25" font-weight="700">ic-blob-storage</text>
+    <text x="82" y="757" font-size="18" fill="#53718F">Records confirmation of the verified file</text>
+    <path d="M324 778V811" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="822" width="1168" height="86" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <circle cx="98" cy="865" r="19" fill="#20765E"/>
+    <path d="M89 865L95 871L107 858" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="136" y="873" font-size="25" font-weight="700" fill="#20765E">Your app can safely reference the confirmed file</text>
+    <text x="640" y="948" text-anchor="middle" font-size="18" fill="#53718F">ic-blob-storage manages permissions, verification, references, limits and records.</text>
+  </g>
+</svg>

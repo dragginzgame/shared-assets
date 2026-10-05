@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="990" viewBox="0 0 1280 990" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage file lifecycle</title>
+  <desc id="desc">A file is approved, uploaded, verified and used by the app. Several app references may point to the same file. When the last reference is released, provider deletion and the end of billing still need their own confirmations. Reference release, deletion of the provider copy and the end of billing are three separate events.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="990" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · FILE LIFECYCLE</text>
+    <text x="56" y="107" font-size="34" font-weight="700">From upload to confirmed cleanup</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Track the file’s use, its provider copy and its billing separately.</text>
+
+    <rect x="56" y="190" width="250" height="92" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <rect x="362" y="190" width="250" height="92" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="668" y="190" width="250" height="92" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <rect x="974" y="190" width="250" height="92" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <g text-anchor="middle" font-size="25" font-weight="700">
+      <text x="181" y="246">Approved</text><text x="487" y="246">Uploaded</text>
+      <text x="793" y="246">Verified</text><text x="1099" y="246" fill="#20765E">Used by app</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M310 236H351"/><path d="M616 236H657"/><path d="M922 236H963"/>
+      <path d="M1099 286V319"/>
+    </g>
+
+    <rect x="56" y="330" width="1168" height="204" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="369" font-size="23" font-weight="700">One file can be referenced in several places</text>
+    <rect x="92" y="396" width="246" height="66" rx="12" fill="#F0FBFD" stroke="#B8E5EE"/>
+    <rect x="392" y="396" width="246" height="66" rx="12" fill="#F0FBFD" stroke="#B8E5EE"/>
+    <rect x="692" y="396" width="246" height="66" rx="12" fill="#F0FBFD" stroke="#B8E5EE"/>
+    <rect x="1010" y="396" width="178" height="66" rx="12" fill="#102B50"/>
+    <g text-anchor="middle" font-size="20" font-weight="700">
+      <text x="215" y="436">App reference A</text><text x="515" y="436">App reference B</text>
+      <text x="815" y="436">App reference C</text><text x="1099" y="436" fill="#FFFFFF">Same file</text>
+    </g>
+    <path d="M215 466V484H977V429H999M515 466V484M815 466V484" fill="none" stroke="#71859A" stroke-width="2" stroke-linejoin="round"/>
+    <text x="82" y="516" font-size="17" fill="#53718F">Releasing one reference can leave other references in use.</text>
+    <path d="M640 538V575" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="586" width="1168" height="108" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <circle cx="103" cy="640" r="24" fill="#009DBD"/>
+    <text x="103" y="648" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="151" y="631" font-size="25" font-weight="700">Last reference released</text>
+    <text x="151" y="664" font-size="18" fill="#53718F">No app references remain. Provider deletion and billing still need confirmation.</text>
+
+    <path d="M640 698V743" fill="none" stroke="#71859A" stroke-width="2.5"/>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M640 743H335V789"/><path d="M640 743H945V789"/>
+    </g>
+    <rect x="495" y="725" width="290" height="36" rx="18" fill="#F7FAFD"/>
+    <text x="640" y="750" text-anchor="middle" font-size="18" fill="#53718F">Separate confirmations</text>
+
+    <rect x="56" y="800" width="558" height="124" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <circle cx="103" cy="845" r="24" fill="#7354C6"/>
+    <text x="103" y="853" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="151" y="854" font-size="24" font-weight="700">Provider deletion confirmed</text>
+    <text x="82" y="895" font-size="18" fill="#53718F">The provider’s copy has been deleted.</text>
+
+    <rect x="666" y="800" width="558" height="124" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <circle cx="713" cy="845" r="24" fill="#20765E"/>
+    <text x="713" y="853" text-anchor="middle" font-size="23" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="761" y="854" font-size="24" font-weight="700" fill="#20765E">End of billing confirmed</text>
+    <text x="692" y="895" font-size="18" fill="#53718F">Storage billing for the file has ended.</text>
+    <text x="640" y="965" text-anchor="middle" font-size="18" fill="#53718F">Reference release, provider deletion and the end of billing are three separate events.</text>
+  </g>
+</svg>
