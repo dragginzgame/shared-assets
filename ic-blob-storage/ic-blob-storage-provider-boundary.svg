@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="990" viewBox="0 0 1280 990" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage local and provider evidence boundary</title>
+  <desc id="desc">Local facts include authenticated permissions and bindings, admission quotas and reservations, exact intents and retained receipts, accepted verifier statements, and reference and liability records. Separate provider evidence is required for actual account and project provisioning, charging and spending limits, paid-operation outcomes and duplicate charging, future availability and retention, physical deletion and final billing cessation. Local success does not establish these external facts. Independent observed evidence may qualify provider behaviour without a provider reply.</desc>
+  <rect width="1280" height="990" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · PROVIDER BOUNDARY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Local records and external facts</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">A local state transition does not establish what happened at the provider.</text>
+
+    <rect x="56" y="188" width="550" height="92" rx="16" fill="#102B50"/>
+    <rect x="674" y="188" width="550" height="92" rx="16" fill="#7354C6"/>
+    <text x="82" y="226" font-size="25" font-weight="700" fill="#FFFFFF">Facts owned locally</text>
+    <text x="82" y="259" font-size="18" fill="#B5C8DD">ic-blob-storage state and enforcement</text>
+    <text x="700" y="226" font-size="25" font-weight="700" fill="#FFFFFF">Facts requiring provider evidence</text>
+    <text x="700" y="259" font-size="18" fill="#EEE7FF">Independent observations of external behaviour</text>
+
+    <path d="M640 295V880" stroke="#CBD8E5" stroke-width="2" stroke-dasharray="6 7"/>
+    <g fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5">
+      <rect x="56" y="304" width="550" height="104" rx="14"/>
+      <rect x="56" y="424" width="550" height="104" rx="14"/>
+      <rect x="56" y="544" width="550" height="104" rx="14"/>
+      <rect x="56" y="664" width="550" height="104" rx="14"/>
+      <rect x="56" y="784" width="550" height="104" rx="14"/>
+    </g>
+    <g fill="#F5F1FD" stroke="#D9CDEE" stroke-width="1.5">
+      <rect x="674" y="304" width="550" height="104" rx="14"/>
+      <rect x="674" y="424" width="550" height="104" rx="14"/>
+      <rect x="674" y="544" width="550" height="104" rx="14"/>
+      <rect x="674" y="664" width="550" height="104" rx="14"/>
+      <rect x="674" y="784" width="550" height="104" rx="14"/>
+    </g>
+    <g font-size="22" font-weight="700">
+      <text x="82" y="342">Permissions and bindings</text>
+      <text x="700" y="342">Actual provider provisioning</text>
+      <text x="82" y="462">Admission limits and reservations</text>
+      <text x="700" y="462">Charging and financial limits</text>
+      <text x="82" y="582">Exact intents and retained receipts</text>
+      <text x="700" y="582">Paid-operation outcomes</text>
+      <text x="82" y="702">Accepted verifier statement</text>
+      <text x="700" y="702">Future availability and retention</text>
+      <text x="82" y="822">Reference and liability records</text>
+      <text x="700" y="822">Deletion and billing cessation</text>
+    </g>
+    <g font-size="18" fill="#53718F">
+      <text x="82" y="374">Who may act, for which service and namespace</text>
+      <text x="700" y="374">Account, project, bucket and gateway relationships</text>
+      <text x="82" y="494">Bounded local capacity and client traffic</text>
+      <text x="700" y="494">Pre-charge bounds and enforced spending caps</text>
+      <text x="82" y="614">Original requests, history and uncertain outcomes</text>
+      <text x="700" y="614">Exact completion, lost replies and duplicate charges</text>
+      <text x="82" y="734">Complete content observed at a recorded time</text>
+      <text x="700" y="734">Continued serving and the supported retention horizon</text>
+      <text x="82" y="854">Logical release retains outstanding obligations</text>
+      <text x="700" y="854">Separate physical deletion and final billing evidence</text>
+    </g>
+    <rect x="56" y="916" width="1168" height="46" rx="12" fill="#EAF7F1" stroke="#9BD3BD"/>
+    <text x="640" y="946" text-anchor="middle" font-size="18" fill="#20765E">SDK success, local limits and logical release do not prove provider completion, a bill cap or billing cessation.</text>
+  </g>
+</svg>

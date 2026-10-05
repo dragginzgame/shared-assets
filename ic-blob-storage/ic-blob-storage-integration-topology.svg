@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1020" viewBox="0 0 1280 1020" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage integration topology</title>
+  <desc id="desc">Browser and native clients call the blob API on either an application host embedding ic-blob-storage or its standalone service. Both compose the same shared library workflows. File bytes travel directly between clients and Caffeine. ic-memory owns the production allocation runtime. PocketIC tests canister composition and lifecycle locally and is excluded from the production Wasm graph; local provider substitutes do not qualify live Caffeine behaviour.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker>
+    <marker id="bytes" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#009DBD"/></marker>
+  </defs>
+  <rect width="1280" height="1020" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · INTEGRATION TOPOLOGY</text>
+    <text x="56" y="107" font-size="34" font-weight="700">One shared core. Two ways to host it.</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Clients use the service API; file bytes travel directly to and from Caffeine.</text>
+
+    <rect x="56" y="192" width="420" height="126" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="237" font-size="26" font-weight="700">Browser / native clients</text>
+    <text x="82" y="273" font-size="18" fill="#53718F">Upload, verify and manage references</text>
+    <text x="82" y="299" font-size="18" fill="#53718F">within their explicit role bindings</text>
+    <rect x="824" y="192" width="400" height="126" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="850" y="240" font-size="26" font-weight="700">Caffeine</text>
+    <text x="850" y="278" font-size="18" fill="#53718F">External file storage and delivery</text>
+    <path d="M490 254H810" fill="none" stroke="#009DBD" stroke-width="3" marker-start="url(#bytes)" marker-end="url(#bytes)"/>
+    <text x="650" y="229" text-anchor="middle" font-size="21" font-weight="700" fill="#0086A3">File bytes</text>
+    <text x="650" y="291" text-anchor="middle" font-size="16" fill="#53718F">Direct upload / download</text>
+
+    <path d="M266 322V375H906" fill="none" stroke="#71859A" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M340 375V416" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <path d="M906 375V416" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="440" y="356" width="350" height="38" rx="19" fill="#F7FAFD"/>
+    <text x="615" y="382" text-anchor="middle" font-size="18" fill="#53718F">Blob API · choose a host</text>
+
+    <rect x="56" y="428" width="568" height="138" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="82" y="465" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">EMBEDDED LIBRARY</text>
+    <text x="82" y="503" font-size="26" font-weight="700">Application / host</text>
+    <text x="82" y="540" font-size="18" fill="#53718F">Owns API wrappers and application integration</text>
+    <rect x="656" y="428" width="568" height="138" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="682" y="465" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">STANDALONE HOST</text>
+    <text x="682" y="503" font-size="26" font-weight="700">Standalone service</text>
+    <text x="682" y="540" font-size="18" fill="#53718F">Exposes the maintained blob service endpoints</text>
+    <path d="M340 570V605" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <path d="M940 570V605" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="618" width="1168" height="114" rx="18" fill="#102B50"/>
+    <text x="640" y="663" text-anchor="middle" font-size="27" font-weight="700" fill="#FFFFFF">ic-blob-storage · shared library core</text>
+    <text x="640" y="704" text-anchor="middle" font-size="18" fill="#B5C8DD">Authority checks, upload workflows, verification records, references and provider bookkeeping</text>
+    <path d="M340 736V785" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="798" width="568" height="142" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="833" font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">PRODUCTION DEPENDENCY</text>
+    <text x="82" y="869" font-size="27" font-weight="700">ic-memory</text>
+    <text x="82" y="905" font-size="18" fill="#53718F">Sole allocation runtime for persistent service state</text>
+
+    <rect x="656" y="798" width="568" height="142" rx="18" fill="#F5F1FD" stroke="#7354C6" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="682" y="833" font-size="13" font-weight="700" letter-spacing="1.5" fill="#7354C6">LOCAL TEST INFRASTRUCTURE</text>
+    <text x="682" y="869" font-size="27" font-weight="700">PocketIC</text>
+    <text x="682" y="905" font-size="18" fill="#53718F">Tests canister composition and lifecycle via ic-testkit</text>
+    <path d="M940 794V748" fill="none" stroke="#7354C6" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="961" y="775" font-size="16" fill="#7354C6">Outside production Wasm</text>
+    <text x="640" y="983" text-anchor="middle" font-size="18" fill="#53718F">Local provider substitutes do not establish live Caffeine behaviour.</text>
+  </g>
+</svg>

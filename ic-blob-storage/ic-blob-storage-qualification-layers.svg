@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="950" viewBox="0 0 1280 950" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage qualification layers</title>
+  <desc id="desc">Four distinct qualification layers progress from native checks of policy and local state, through PocketIC evidence of IC calls and lifecycle under labelled substitutes, to live provider evidence for exact deployments and operations, and finally consumer deployment acceptance for the actual application and operating environment. Each layer needs its own evidence; passing one does not qualify the next. The diagram describes required evidence, not current completion status.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="950" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · ACCEPTANCE PLAN</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Four layers of qualification</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Each layer answers a different question and requires its own evidence.</text>
+
+    <rect x="56" y="188" width="1168" height="136" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <circle cx="105" cy="237" r="25" fill="#102B50"/>
+    <text x="105" y="246" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="153" y="246" font-size="27" font-weight="700">Native checks</text>
+    <text x="153" y="283" font-size="19">Policy, validation and local state behaviour</text>
+    <text x="153" y="309" font-size="17" fill="#53718F">Qualifies local logic; does not establish IC execution or provider behaviour.</text>
+    <path d="M640 328V361" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="374" width="1168" height="136" rx="18" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <circle cx="105" cy="423" r="25" fill="#7354C6"/>
+    <text x="105" y="432" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="153" y="432" font-size="27" font-weight="700">PocketIC evidence</text>
+    <text x="153" y="469" font-size="19">Actual IC calls, lifecycle and transaction rollback under labelled substitutes</text>
+    <text x="153" y="495" font-size="17" fill="#53718F">Qualifies the local canister composition; does not establish live Caffeine behaviour.</text>
+    <path d="M640 514V547" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="560" width="1168" height="136" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <circle cx="105" cy="609" r="25" fill="#009DBD"/>
+    <text x="105" y="618" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="153" y="618" font-size="27" font-weight="700">Live provider evidence</text>
+    <text x="153" y="655" font-size="19">Selected provider operations, serving, retention, deletion and billing observations</text>
+    <text x="153" y="681" font-size="17" fill="#53718F">Retain exact targets, artefacts, requests and limitations; sample success is scoped evidence.</text>
+    <path d="M640 700V733" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="56" y="746" width="1168" height="136" rx="18" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <circle cx="105" cy="795" r="25" fill="#20765E"/>
+    <text x="105" y="804" text-anchor="middle" font-size="25" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="153" y="804" font-size="27" font-weight="700" fill="#20765E">Consumer deployment acceptance</text>
+    <text x="153" y="841" font-size="19">Actual application integration, deployment, access policy and operational ownership</text>
+    <text x="153" y="867" font-size="17" fill="#53718F">Qualify the chosen application and environment against the complete acceptance plan.</text>
+
+    <text x="640" y="926" text-anchor="middle" font-size="18" fill="#53718F">Required evidence layers · passing one does not qualify the next · this is not a completion report</text>
+  </g>
+</svg>

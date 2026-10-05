@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage operator workflow</title>
+  <desc id="desc">Prepare, admit, upload, verify, reference, then release and reconcile. File bytes upload directly to Caffeine. Verification precedes application references. Releasing a reference, confirming provider deletion and confirming the end of billing are separate events.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker></defs>
+  <rect width="1280" height="620" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · OPERATOR WORKFLOW</text>
+    <text x="56" y="107" font-size="34" font-weight="700">From preparation to reconciliation</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Follow the sequence left to right, then continue on the next row.</text>
+
+    <rect x="56" y="188" width="350" height="136" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <rect x="465" y="188" width="350" height="136" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="874" y="188" width="350" height="136" rx="16" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <g font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">
+      <text x="82" y="220">01</text><text x="491" y="220">02</text><text x="900" y="220">03</text>
+    </g>
+    <g font-size="27" font-weight="700">
+      <text x="82" y="254">Prepare</text><text x="491" y="254">Admit</text><text x="900" y="254">Upload</text>
+    </g>
+    <g font-size="18" fill="#53718F">
+      <text x="82" y="286">Prepare the file</text><text x="82" y="310">and upload details</text>
+      <text x="491" y="286">Approve limits</text><text x="491" y="310">and record upload intent</text>
+      <text x="900" y="286">Send bytes directly</text><text x="900" y="310">to Caffeine storage</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M410 256H454"/><path d="M819 256H863"/>
+      <path d="M1049 328V358H231V379" stroke-linejoin="round"/>
+    </g>
+
+    <rect x="56" y="390" width="350" height="136" rx="16" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <rect x="465" y="390" width="350" height="136" rx="16" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <rect x="874" y="390" width="350" height="136" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <g font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">
+      <text x="82" y="422">04</text><text x="491" y="422">05</text><text x="900" y="422">06</text>
+    </g>
+    <g font-size="27" font-weight="700">
+      <text x="82" y="456">Verify</text><text x="491" y="456" fill="#20765E">Reference</text><text x="900" y="456">Release / reconcile</text>
+    </g>
+    <g font-size="18" fill="#53718F">
+      <text x="82" y="488">Check the complete file</text><text x="82" y="512">and record confirmation</text>
+      <text x="491" y="488">Use the confirmed file</text><text x="491" y="512">through app references</text>
+      <text x="900" y="488">Release unused references;</text><text x="900" y="512">reconcile deletion and billing</text>
+    </g>
+    <g fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M410 458H454"/><path d="M819 458H863"/>
+    </g>
+    <text x="640" y="579" text-anchor="middle" font-size="18" fill="#53718F">Reference release, provider deletion and the end of billing each need their own record.</text>
+  </g>
+</svg>

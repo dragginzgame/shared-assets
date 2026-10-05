@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1040" viewBox="0 0 1280 1040" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage standalone trial sequence</title>
+  <desc id="desc">Provision the standalone service and provider relationship with selected roles and limits. The tenant and trusted uploader obtain exact upload permission and prepare the manifest. The client uploads bytes directly to Caffeine. The independent verifier fetches and checks the complete file, then submits an attestation to the service, which records confirmation and the first reference. The tenant obtains a download descriptor and downloads verified bytes directly from Caffeine. These are distinct responsibilities even if one participant holds more than one role.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71859A"/></marker>
+    <marker id="bytes" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#009DBD"/></marker>
+  </defs>
+  <rect width="1280" height="1040" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · STANDALONE TRIAL</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Upload, independently verify, then download</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Read top to bottom. Arrows show messages and direct file transfers.</text>
+
+    <rect x="56" y="184" width="1168" height="96" rx="16" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="223" font-size="23" font-weight="700">1 · Provisioning</text>
+    <text x="82" y="257" font-size="18" fill="#53718F">Select the service, provider project, tenant, trusted uploader, verifier and operating limits.</text>
+
+    <rect x="56" y="310" width="248" height="86" rx="14" fill="#102B50"/>
+    <rect x="362" y="310" width="248" height="86" rx="14" fill="#102B50"/>
+    <rect x="668" y="310" width="248" height="86" rx="14" fill="#102B50"/>
+    <rect x="974" y="310" width="250" height="86" rx="14" fill="#102B50"/>
+    <g text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="700">
+      <text x="180" y="345">Browser / client</text><text x="486" y="345">Standalone</text><text x="486" y="375">service</text>
+      <text x="792" y="362">Caffeine</text><text x="1099" y="345">Independent</text><text x="1099" y="375">verifier</text>
+    </g>
+    <text x="180" y="375" text-anchor="middle" font-size="16" fill="#B5C8DD">Tenant / trusted uploader</text>
+    <g stroke="#CBD8E5" stroke-width="2" stroke-dasharray="5 7">
+      <path d="M180 400V963"/><path d="M486 400V963"/><path d="M792 400V963"/><path d="M1099 400V963"/>
+    </g>
+
+    <path d="M185 451H476" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="333" y="435" text-anchor="middle" font-size="18" font-weight="700">2 · Permission + preparation</text>
+    <path d="M481 493H190" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="333" y="481" text-anchor="middle" font-size="16" fill="#53718F">Exact permission + upload certificate</text>
+
+    <path d="M185 560H782" fill="none" stroke="#009DBD" stroke-width="3" marker-end="url(#bytes)"/>
+    <text x="486" y="543" text-anchor="middle" font-size="21" font-weight="700" fill="#0086A3">3 · Direct upload of file bytes</text>
+
+    <path d="M797 631H1089" fill="none" stroke="#009DBD" stroke-width="3" marker-end="url(#bytes)"/>
+    <text x="946" y="613" text-anchor="middle" font-size="18" font-weight="700" fill="#0086A3">4 · Independent fetch</text>
+    <rect x="956" y="652" width="268" height="68" rx="12" fill="#F5F1FD" stroke="#7354C6" stroke-width="1.5"/>
+    <text x="1090" y="680" text-anchor="middle" font-size="17" font-weight="700">Check the complete file</text>
+    <text x="1090" y="706" text-anchor="middle" font-size="16" fill="#53718F">Root, length and metadata</text>
+
+    <path d="M1094 762H496" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="792" y="748" text-anchor="middle" font-size="21" font-weight="700">5 · Submit verifier attestation</text>
+    <rect x="336" y="779" width="300" height="56" rx="12" fill="#EAF7F1" stroke="#9BD3BD"/>
+    <text x="486" y="802" text-anchor="middle" font-size="16" font-weight="700" fill="#20765E">Record confirmation</text>
+    <text x="486" y="825" text-anchor="middle" font-size="16" fill="#20765E">and the first reference</text>
+
+    <path d="M481 885H190" fill="none" stroke="#71859A" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="333" y="869" text-anchor="middle" font-size="17" font-weight="700">6 · Tenant download descriptor</text>
+    <path d="M787 944H190" fill="none" stroke="#009DBD" stroke-width="3" marker-end="url(#bytes)"/>
+    <text x="486" y="928" text-anchor="middle" font-size="20" font-weight="700" fill="#0086A3">Direct download · verify the received bytes</text>
+
+    <text x="640" y="1008" text-anchor="middle" font-size="18" fill="#53718F">Upload success alone is not completion evidence. Verification precedes confirmation.</text>
+  </g>
+</svg>

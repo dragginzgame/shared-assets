@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1080" viewBox="0 0 1280 1080" role="img" aria-labelledby="title desc">
+  <title id="title">IC Blob Storage authority boundaries</title>
+  <desc id="desc">Six distinct responsibilities: the tenant acts within its own service and namespace and retains or releases references; the trusted uploader prepares manifests and uploads with exact tenant permission; the configured verifier independently checks the complete file and attests observed availability; the installed operator inspects and reconciles service operations and performs authorised recovery; the provider stores and serves bytes and supplies provider evidence; the application owns integration, publication and reference use. Controller status grants no implicit tenant, uploader, verifier or operator authority. Upload completion, provider deletion and the end of billing are separate facts.</desc>
+  <rect width="1280" height="1080" fill="#F7FAFD"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#102B50">
+    <text x="56" y="57" font-size="14" font-weight="700" letter-spacing="2" fill="#53718F">IC BLOB STORAGE · SERVICE CONTRACT</text>
+    <text x="56" y="107" font-size="34" font-weight="700">Who is responsible for what?</text>
+    <text x="56" y="143" font-size="19" fill="#53718F">Authority is explicit and scoped. One role does not automatically grant another.</text>
+
+    <rect x="56" y="186" width="568" height="226" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <rect x="656" y="186" width="568" height="226" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <text x="82" y="225" font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">OWNERSHIP &amp; USE</text>
+    <text x="82" y="261" font-size="28" font-weight="700">Tenant</text>
+    <text x="82" y="298" font-size="19">Acts within its own service and namespace.</text>
+    <text x="82" y="330" font-size="19">Requests admission; retains or releases references.</text>
+    <path d="M82 350H598" stroke="#D7E3EF"/>
+    <text x="82" y="381" font-size="17" fill="#53718F">A file digest alone grants no tenant access.</text>
+
+    <text x="682" y="225" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">PERMITTED TRANSFER</text>
+    <text x="682" y="261" font-size="28" font-weight="700">Uploader</text>
+    <text x="682" y="298" font-size="19">Prepares the manifest and transfers file bytes.</text>
+    <text x="682" y="330" font-size="19">Needs installed trust and exact tenant permission.</text>
+    <path d="M682 350H1198" stroke="#B8E5EE"/>
+    <text x="682" y="381" font-size="17" fill="#53718F">Upload progress is not verification evidence.</text>
+
+    <rect x="56" y="438" width="568" height="226" rx="18" fill="#F5F1FD" stroke="#7354C6" stroke-width="2"/>
+    <rect x="656" y="438" width="568" height="226" rx="18" fill="#FFFFFF" stroke="#D7E3EF" stroke-width="1.5"/>
+    <text x="82" y="477" font-size="13" font-weight="700" letter-spacing="1.5" fill="#7354C6">COMPLETION EVIDENCE</text>
+    <text x="82" y="513" font-size="28" font-weight="700">Verifier</text>
+    <text x="82" y="550" font-size="19">Independently fetches and checks the complete file.</text>
+    <text x="82" y="582" font-size="19">Attests its root, length, metadata and observation.</text>
+    <path d="M82 602H598" stroke="#D9CDEE"/>
+    <text x="82" y="633" font-size="17" fill="#53718F">Completion does not prove future retention.</text>
+
+    <text x="682" y="477" font-size="13" font-weight="700" letter-spacing="1.5" fill="#53718F">SERVICE OPERATIONS</text>
+    <text x="682" y="513" font-size="28" font-weight="700">Operator</text>
+    <text x="682" y="550" font-size="19">Inspects and reconciles retained service operations.</text>
+    <text x="682" y="582" font-size="19">Performs explicitly authorised recovery.</text>
+    <path d="M682 602H1198" stroke="#D7E3EF"/>
+    <text x="682" y="633" font-size="17" fill="#53718F">Operator status grants no tenant or verifier role.</text>
+
+    <rect x="56" y="690" width="568" height="226" rx="18" fill="#F0FBFD" stroke="#009DBD" stroke-width="2"/>
+    <rect x="656" y="690" width="568" height="226" rx="18" fill="#EAF7F1" stroke="#9BD3BD" stroke-width="1.5"/>
+    <text x="82" y="729" font-size="13" font-weight="700" letter-spacing="1.5" fill="#0086A3">EXTERNAL STORAGE</text>
+    <text x="82" y="765" font-size="28" font-weight="700">Provider · Caffeine</text>
+    <text x="82" y="802" font-size="19">Stores and serves the file bytes.</text>
+    <text x="82" y="834" font-size="19">Supplies retention, deletion and billing evidence.</text>
+    <path d="M82 854H598" stroke="#B8E5EE"/>
+    <text x="82" y="885" font-size="17" fill="#53718F">Deletion and the end of billing are separate facts.</text>
+
+    <text x="682" y="729" font-size="13" font-weight="700" letter-spacing="1.5" fill="#20765E">CONSUMER INTEGRATION</text>
+    <text x="682" y="765" font-size="28" font-weight="700">Application</text>
+    <text x="682" y="802" font-size="19">Owns publication and durable operation tracking.</text>
+    <text x="682" y="834" font-size="19">Uses confirmed references and manages their lifetime.</text>
+    <path d="M682 854H1198" stroke="#9BD3BD"/>
+    <text x="682" y="885" font-size="17" fill="#53718F">Uses the service API and preserves its boundaries.</text>
+
+    <rect x="56" y="944" width="1168" height="86" rx="16" fill="#102B50"/>
+    <text x="640" y="980" text-anchor="middle" font-size="21" font-weight="700" fill="#FFFFFF">ic-blob-storage enforces role bindings, limits and recorded transitions.</text>
+    <text x="640" y="1010" text-anchor="middle" font-size="18" fill="#B5C8DD">Controller status grants no implicit tenant, uploader, verifier or operator authority.</text>
+  </g>
+</svg>
